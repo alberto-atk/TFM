@@ -1,10 +1,9 @@
 
 
 def response(sentence):
-    if sentence == "Rafa cabron":
-        return "Si es"
-    else:
-        return "Esto lo consultaré con la API..."
+    return "Llamada a ChatGPT"
+
+
 
 bot_name = "Sam"
 print("Let's chat! (type 'quit' to exit)")
