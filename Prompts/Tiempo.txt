@@ -1,4 +1,4 @@
-Infer the [JSON] for "" given the examples:
+Infer the [JSON] for "que temperatura hace en mallorca mañana" given the examples:
 {
     1: {
             "text": "que tiempo hizo en sevilla el lunes?",
@@ -35,6 +35,6 @@ Infer the [JSON] for "" given the examples:
             "entities": {
                 "date": "25/04/2023"
             }
-    }
+    },
 }
 Assume that today is "28/03/2023".

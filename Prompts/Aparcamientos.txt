@@ -1,0 +1,38 @@
+
+****************************************
+***   get-parking-data-by-location   ***
+****************************************
+
+
+
+*****************************
+***   get-free-parkings   ***
+*****************************
+{
+    1: {
+        "text": "que aparcamientos hay disponibles en malaga?",
+        "intent": "get-free-parkings",
+        "entities": {
+            "city": "Malaga",
+        }
+    },
+    2: {
+        "text": "que aparcamientos tengo por cáceres?",
+        "intent": "get-free-parkings",
+        "entities": {
+            "city": "Cáceres",
+        }
+    },
+    3: {
+        "text": "podre estacionar el coche en algún lado de cerdeña",
+        "intent": "get-free-parkings",
+        "entities": {
+            "city": "Cerdeña",
+        }
+    }
+}
+
+
+************************************
+***   get-parking-data-by-name   ***
+************************************
