@@ -1,4 +1,6 @@
+import openai
 
+#export OPENAI_API_KEY="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"
 
 def response(sentence):
     return "Llamada a ChatGPT"

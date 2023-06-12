@@ -1,15 +1,63 @@
 ********************************************
-****     get-monument-by-location       ****
-********************************************
-
-
-
-********************************************
-****      get-monument-by-schedule      ****
-********************************************
-
-
-
-********************************************
 ****        get-monument-by-name        ****
 ********************************************
+Infer the [JSON] for "donde esta el castillo de gibralfaro?" given the examples:
+{
+    1: {
+            "text": "en que lugar puedo ver la giralda?",
+            "intent": "get_monument_location",
+            "entities": {
+                "monument": "Giralda"
+            }
+        },
+    2: {
+            "text": "donde puedo ver la plaza de españa",
+            "intent": "get_monument_location",
+            "entities": {
+                "city": "Plaza de España"
+            }
+        },
+    3: {
+            "text": "En que sitio está la sagrada familia",
+            "intent": "get_monument_location",
+            "entities": {
+                "city": "Sagrada Familia"
+            }
+        },
+    4: {
+            "text": "Dónde puedo encontrar el Coliseo Romano?",
+            "intent": "get_monument_location",
+            "entities": {
+                "monument": "Coliseo Romano"
+            }
+    },
+    5: {
+            "text": "En qué lugar se encuentra la Torre Eiffel?",
+            "intent": "get_monument_location",
+            "entities": {
+                "monument": "Torre Eiffel"
+            }
+    },
+    6: {
+            "text": "Donde está el Taj Mahal?",
+            "intent": "get_monument_location",
+            "entities": {
+                "monument": "Taj Mahal"
+            }
+    },
+    7: {
+            "text": "En qué sitio se encuentra el Cristo Redentor?",
+            "intent": "get_monument_location",
+            "entities": {
+                "monument": "Cristo Redentor"
+            }
+    },
+    8: {
+            "text": "Dónde puedo ver la Gran Muralla China?",
+            "intent": "get_monument_location",
+            "entities": {
+                "monument": "Gran Muralla China"
+            }
+    }
+}
+Assume that today is [today-date].

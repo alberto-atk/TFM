@@ -1,0 +1,31 @@
+{"prompt":"que aparcamientos hay disponibles en malaga? ->","completion":" -free-parkings\",\"entities\": {\"city\": \"Malaga\"}}"}
+{"prompt":"que aparcamientos tengo por cáceres? ->","completion":" -free-parkings\",\"entities\": {\"city\": \"Cáceres\"}}"}
+{"prompt":"podre estacionar el coche en algún lado de cerdeña ->","completion":" -free-parkings\",\"entities\": {\"city\": \"Cerdeña\"}}"}
+{"prompt":"¿Dónde puedo encontrar aparcamientos disponibles en Zaragoza? ->","completion":" -free-parkings\",\"entities\": {\"city\": \"Zaragoza\"}}"}
+{"prompt":"Necesito encontrar aparcamientos en Valladolid, ¿cuáles están disponibles? ->","completion":" -free-parkings\",\"entities\": {\"city\": \"Valladolid\"}}"}
+{"prompt":"¿Hay lugares para estacionar el coche en Hong Kong? ->","completion":" -free-parkings\",\"entities\": {\"city\": \"Hong Kong\"}}"}
+{"prompt":"Quiero saber los aparcamientos libres en Madrid ->","completion":" -free-parkings\",\"entities\": {\"city\": \"Madrid\"}}"}
+{"prompt":"en que lugar puedo ver la giralda? ->","completion":" _monument_location\",\"entities\": {\"monument\": \"Giralda\"}}"}
+{"prompt":"donde puedo ver la plaza de españa ->","completion":" _monument_location\",\"entities\": {\"city\": \"Plaza de España\"}}"}
+{"prompt":"En que sitio está la sagrada familia ->","completion":" _monument_location\",\"entities\": {\"city\": \"Sagrada Familia\"}}"}
+{"prompt":"Dónde puedo encontrar el Coliseo Romano? ->","completion":" _monument_location\",\"entities\": {\"monument\": \"Coliseo Romano\"}}"}
+{"prompt":"En qué lugar se encuentra la Torre Eiffel? ->","completion":" _monument_location\",\"entities\": {\"monument\": \"Torre Eiffel\"}}"}
+{"prompt":"Donde está el Taj Mahal? ->","completion":" _monument_location\",\"entities\": {\"monument\": \"Taj Mahal\"}}"}
+{"prompt":"En qué sitio se encuentra el Cristo Redentor? ->","completion":" _monument_location\",\"entities\": {\"monument\": \"Cristo Redentor\"}}"}
+{"prompt":"Dónde puedo ver la Gran Muralla China? ->","completion":" _monument_location\",\"entities\": {\"monument\": \"Gran Muralla China\"}}"}
+{"prompt":"tengo algún cargador eléctrico disponibles en la avenida de juan lpez de pealver ->","completion":" -electric-charger\",\"entities\": {\"avenue\": \"Avenida de Juan Lpez de Pealver\"}}"}
+{"prompt":"en la calle Mara Curie puedo cargar mi coche? ->","completion":" -electric-charger\",\"entities\": {\"avenue\": \"Calle Mara Curie\"}}"}
+{"prompt":"¿Habrá enchufes para cargar mi coche en la avenida Mística? ->","completion":" -electric-charger\",\"entities\": {\"avenue\": \"Avenida Mística\"}}"}
+{"prompt":"En la calle Laberinto, ¿podré abastecer mi vehículo? ->","completion":" -electric-charger\",\"entities\": {\"avenue\": \"Calle Laberinto\"}}"}
+{"prompt":"¿Existe algún punto de carga energético en la avenida de los Sueños? ->","completion":" -electric-charger\",\"entities\": {\"avenue\": \"Avenida de los Sueños\"}}"}
+{"prompt":"En la calle Sinfonía, ¿podré cargar mi coche eléctrico? ->","completion":" -electric-charger\",\"entities\": {\"avenue\": \"Calle Sinfonía\"}}"}
+{"prompt":"que tiempo hizo en sevilla el lunes? ->","completion":" _weather\",\"entities\":{\"city\": \"Sevilla\",\"date\": \"27\/03\/2023\"}}"}
+{"prompt":"como está el día hoy en Valladolid ->","completion":" _weather\",\"entities\":{\"city\": \"Valladolid\",\"date\": \"28\/03\/2023\"}}"}
+{"prompt":"En barcelona, cuantos grados hace mañana ->","completion":" _weather\",\"entities\":{\"city\": \"Barcelona\",\"date\": \"29\/03\/2023\"}}"}
+{"prompt":"En Valencia ->","completion":" _weather\",\"entities\":{\"city\": \"Valencia\"}}"}
+{"prompt":"Para el 25 de abril ->","completion":" _weather\",\"entities\":{\"date\": \"25\/04\/2023\"}}"}
+{"prompt":"¿Cómo estará el clima en Madrid mañana? ->","completion":" _weather\",\"entities\":{\"city\": \"Madrid\",\"date\": \"13\/06\/2023\"}}"}
+{"prompt":"¿Qué temperatura hará en Málaga el viernes? ->","completion":" _weather\",\"entities\":{\"city\": \"Málaga\",\"date\": \"16\/06\/2023\"}}"}
+{"prompt":"¿Habrá lluvia en Bilbao la próxima semana? ->","completion":" _weather\",\"entities\":{\"city\": \"Bilbao\",\"date\": \"19\/06\/2023\"}}"}
+{"prompt":"Quiero saber la previsión del tiempo en Alicante para el mes de julio ->","completion":" _weather\",\"entities\":{\"city\": \"Alicante\",\"date\": \"01\/07\/2023\"}}"}
+{"prompt":"¿Cuántos grados hará en Granada el próximo fin de semana? ->","completion":" _weather\",\"entities\":{\"city\": \"Granada\",\"date\": \"17\/06\/2023\"}}"}

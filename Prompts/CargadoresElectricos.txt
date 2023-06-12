@@ -1,0 +1,47 @@
+********************************************
+***   get-electric-charger-by-location   ***
+********************************************
+{
+    1: {
+        "text": "tengo algún cargador eléctrico disponibles en la avenida de juan lpez de pealver",
+        "intent": "get-electric-charger",
+        "entities": {
+            "avenue": "Avenida de Juan Lpez de Pealver",
+        }
+    },
+    2: {
+        "text": "en la calle Mara Curie puedo cargar mi coche?",
+        "intent": "get-electric-charger",
+        "entities": {
+            "avenue": "Avenida de Juan Lpez de Pealver",
+        }
+    },
+        "3": {
+        "text": "¿Habrá enchufes para cargar mi coche en la avenida Mística?",
+        "intent": "get-electric-charger",
+        "entities": {
+            "avenue": "Avenida Mística"
+        }
+    },
+    "4": {
+        "text": "En la calle Laberinto, ¿podré abastecer mi vehículo?",
+        "intent": "get-electric-charger",
+        "entities": {
+            "avenue": "Calle Laberinto"
+        }
+    },
+    "5": {
+        "text": "¿Existe algún punto de carga energético en la avenida de los Sueños?",
+        "intent": "get-electric-charger",
+        "entities": {
+            "avenue": "Avenida de los Sueños"
+        }
+    },
+    "6": {
+        "text": "En la calle Sinfonía, ¿podré cargar mi coche eléctrico?",
+        "intent": "get-electric-charger",
+        "entities": {
+            "avenue": "Calle Sinfonía"
+        }
+    }
+}

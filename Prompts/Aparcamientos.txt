@@ -1,10 +1,4 @@
 
-****************************************
-***   get-parking-data-by-location   ***
-****************************************
-
-
-
 *****************************
 ***   get-free-parkings   ***
 *****************************
@@ -29,10 +23,33 @@
         "entities": {
             "city": "Cerdeña",
         }
+    },
+        "4": {
+        "text": "¿Dónde puedo encontrar aparcamientos disponibles en Zaragoza?",
+        "intent": "get-free-parkings",
+        "entities": {
+            "city": "Zaragoza"
+        }
+    },
+    "5": {
+        "text": "Necesito encontrar aparcamientos en Valladolid, ¿cuáles están disponibles?",
+        "intent": "get-free-parkings",
+        "entities": {
+            "city": "Valladolid"
+        }
+    },
+    "6": {
+        "text": "¿Hay lugares para estacionar el coche en Hong Kong?",
+        "intent": "get-free-parkings",
+        "entities": {
+            "city": "Hong Kong"
+        }
+    },
+    "7": {
+        "text": "Quiero saber los aparcamientos libres en Madrid",
+        "intent": "get-free-parkings",
+        "entities": {
+            "city": "Madrid"
+        }
     }
 }
-
-
-************************************
-***   get-parking-data-by-name   ***
-************************************

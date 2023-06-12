@@ -36,5 +36,45 @@ Infer the [JSON] for "que temperatura hace en mallorca mañana" given the exampl
                 "date": "25/04/2023"
             }
     },
+        "6": {
+        "text": "¿Cómo estará el clima en Madrid mañana?",
+        "intent": "get_weather",
+        "entities": {
+            "city": "Madrid",
+            "date": "13/06/2023"
+        }
+    },
+    "7": {
+        "text": "¿Qué temperatura hará en Málaga el viernes?",
+        "intent": "get_weather",
+        "entities": {
+            "city": "Málaga",
+            "date": "16/06/2023"
+        }
+    },
+    "8": {
+        "text": "¿Habrá lluvia en Bilbao la próxima semana?",
+        "intent": "get_weather",
+        "entities": {
+            "city": "Bilbao",
+            "date": "19/06/2023"
+        }
+    },
+    "9": {
+        "text": "Quiero saber la previsión del tiempo en Alicante para el mes de julio",
+        "intent": "get_weather",
+        "entities": {
+            "city": "Alicante",
+            "date": "01/07/2023"
+        }
+    },
+    "10": {
+        "text": "¿Cuántos grados hará en Granada el próximo fin de semana?",
+        "intent": "get_weather",
+        "entities": {
+            "city": "Granada",
+            "date": "17/06/2023"
+        }
+    }
 }
-Assume that today is "28/03/2023".
+Assume that today is [today-date].
