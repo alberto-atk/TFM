@@ -1,0 +1,401 @@
+***********************************************
+**************** APARCAMIENTOS ****************
+***********************************************
+
+Prompt: "que aparcamientos hay disponibles en malaga?"
+Ciudad: "Malaga"
+
+Prompt: "que aparcamientos tengo por cáceres?"
+Ciudad: "Cáceres"
+
+Prompt: "podre estacionar el coche en algún lado de cerdeña"
+Ciudad: "Cerdeña"
+
+Prompt: "¿Dónde puedo encontrar aparcamientos disponibles en Zaragoza?"
+Ciudad: "Zaragoza"
+
+Prompt: "Necesito encontrar aparcamientos en Valladolid, ¿cuáles están disponibles?"
+Ciudad: "Valladolid"
+
+Prompt: "¿Hay lugares para estacionar el coche en Hong Kong?"
+Ciudad: "Hong Kong"
+
+Prompt: "Quiero saber los aparcamientos libres en Madrid"
+Ciudad: "Madrid"
+
+Prompt: "¿Qué lugares de estacionamiento están disponibles en Barcelona?"
+Ciudad: "Barcelona"
+
+Prompt: "Necesito encontrar aparcamientos gratuitos en Sevilla, ¿cuáles están disponibles?"
+Ciudad: "Sevilla"
+
+Prompt: "¿Dónde puedo encontrar aparcamientos libres en Valencia?"
+Ciudad: "Valencia"
+
+Prompt: "¿Hay lugares para estacionar el coche en Bilbao?"
+Ciudad: "Bilbao"
+
+Prompt: "Quiero saber los aparcamientos disponibles en Granada"
+Ciudad: "Granada"
+
+Prompt: "¿Cuáles son los lugares de estacionamiento gratuitos en Málaga?"
+Ciudad: "Málaga"
+
+Prompt: "Necesito encontrar aparcamientos en Salamanca, ¿cuáles están libres?"
+Ciudad: "Salamanca"
+
+Prompt: "¿Dónde puedo estacionar el coche en Lisboa?"
+Ciudad: "Lisboa"
+
+Prompt: "¿Qué aparcamientos hay disponibles en Ciudad Futura?"
+Ciudad: "Ciudad Futura"
+
+Prompt: "¿Qué aparcamientos tengo por Villa Imaginaria?"
+Ciudad: "Villa Imaginaria"
+
+Prompt: "¿Podré estacionar el coche en algún lado de Pueblo Fantasma?"
+Ciudad: "Pueblo Fantasma"
+
+Prompt: "¿Dónde puedo encontrar aparcamientos disponibles en Nueva Esperanza?"
+Ciudad: "Nueva Esperanza"
+
+Prompt: "Necesito encontrar aparcamientos en Ciudad Mágica, ¿cuáles están disponibles?"
+Ciudad: "Ciudad Mágica"
+
+Prompt: "¿Hay lugares para estacionar el coche en Isla Imaginaria?"
+Ciudad: "Isla Imaginaria"
+
+Prompt: "Quiero saber los aparcamientos libres en Pueblo Encantado"
+Ciudad: "Pueblo Encantado"
+
+Prompt: "¿Qué lugares de estacionamiento están disponibles en Ciudad del Futuro?"
+Ciudad: "Ciudad del Futuro"
+
+Prompt: "Necesito encontrar aparcamientos gratuitos en Villa Soñada, ¿cuáles están disponibles?"
+Ciudad: "Villa Soñada"
+
+Prompt: "¿Dónde puedo encontrar aparcamientos libres en Ciudad Esmeralda?"
+Ciudad: "Ciudad Esmeralda"
+
+Prompt: "¿Qué aparcamientos hay disponibles en Edimburgo?"
+Ciudad: "Edimburgo"
+
+Prompt: "¿Cuáles son los aparcamientos disponibles en Bruselas?"
+Ciudad: "Bruselas"
+
+Prompt: "¿Dónde puedo encontrar aparcamientos en Austin?"
+Ciudad: "Austin"
+
+Prompt: "Necesito encontrar aparcamientos en Malmö, ¿cuáles están disponibles?"
+Ciudad: "Malmö"
+
+Prompt: "¿Hay lugares para estacionar el coche en Auckland?"
+Ciudad: "Auckland"
+
+********************************************
+**************** MONUMENTOS ****************
+********************************************
+
+Prompt: "en que lugar puedo ver la giralda?"
+Monumento: "Giralda"
+
+Prompt: "donde puedo ver la plaza de españa"
+Monumento: "Plaza de España"
+
+Prompt: "En que sitio está la sagrada familia"
+Monumento: "Sagrada Familia"
+
+Prompt: "Dónde puedo encontrar el Coliseo Romano?"
+Monumento: "Coliseo Romano"
+
+Prompt: "En qué lugar se encuentra la Torre Eiffel?"
+Monumento: "Torre Eiffel"
+
+Prompt: "Donde está el Taj Mahal?"
+Monumento: "Taj Mahal"
+
+Prompt: "En qué sitio se encuentra el Cristo Redentor?"
+Monumento: "Cristo Redentor"
+
+Prompt: "Dónde puedo ver la Gran Muralla China?"
+Monumento: "Gran Muralla China"
+
+Prompt: "En qué lugar puedo ver el Big Ben?"
+Monumento: "Big Ben"
+
+Prompt: "Dónde puedo encontrar la Estatua de la Libertad?"
+Monumento: "Estatua de la Libertad"
+
+Prompt: "En qué sitio se encuentra el Partenón?"
+Monumento: "Partenón"
+
+Prompt: "Donde está ubicada la Muralla Roja?"
+Monumento: "Muralla Roja"
+
+Prompt: "Dónde puedo ver el Coliseo de Roma?"
+Monumento: "Coliseo de Roma"
+
+Prompt: "En qué lugar se encuentra el Monte Rushmore?"
+Monumento: "Monte Rushmore"
+
+Prompt: "Donde puedo encontrar la Ópera de Sídney?"
+Monumento: "Ópera de Sídney"
+
+Prompt: "Dónde está ubicado el Palacio de Buckingham?"
+Monumento: "Palacio de Buckingham"
+
+Prompt: "En qué lugar puedo ver las Pirámides de Giza?"
+Monumento: "Pirámides de Giza"
+
+Prompt: "Dónde puedo encontrar la Estatua de Cristo Rey?"
+Monumento: "Estatua de Cristo Rey"
+
+Prompt: "En qué sitio se encuentra la Acrópolis de Atenas?"
+Monumento: "Acrópolis de Atenas"
+
+Prompt: "Donde está ubicado el Machu Picchu?"
+Monumento: "Machu Picchu"
+
+Prompt: "Dónde puedo ver la Estatua de la Victoria de Samotracia?"
+Monumento: "Estatua de la Victoria de Samotracia"
+
+Prompt: "En qué lugar se encuentra el Monte Everest?"
+Monumento: "Monte Everest"
+
+Prompt: "Donde puedo encontrar la Ciudad Prohibida?"
+Monumento: "Ciudad Prohibida"
+
+Prompt: "Dónde está ubicada la Estatua de la Libertad?"
+Monumento: "Estatua de la Libertad"
+
+Prompt: "En qué lugar puedo ver la Ciudad de Petra?"
+Monumento: "Ciudad de Petra"
+
+Prompt: "Dónde puedo encontrar el Palacio de Versalles?"
+Monumento: "Palacio de Versalles"
+
+Prompt: "En qué sitio se encuentra la Estatua de la Libertad?"
+Monumento: "Estatua de la Libertad"
+
+Prompt: "Donde está ubicado el Taj Mahal?"
+Monumento: "Taj Mahal"
+
+Prompt: "En qué lugar se encuentra el Monte Fuji?"
+Monumento: "Monte Fuji"
+
+Prompt: "Donde puedo encontrar la Ópera de Sydney?"
+Monumento: "Ópera de Sydney"
+
+
+*******************************************************
+**************** CARGADORES ELÉCTRICOS ****************
+*******************************************************
+Prompt: "tengo algún cargador eléctrico disponibles en la avenida de juan lpez de pealver", 
+Avenue: "Avenida de Juan Lpez de Pealver"
+
+Prompt: "en la calle Mara Curie puedo cargar mi coche?", 
+Avenue: "Calle Mara Curie"
+
+Prompt: "¿Habrá enchufes para cargar mi coche en la avenida Mística?", 
+Avenue: "Avenida Mística"
+
+Prompt: "En la calle Laberinto, ¿podré abastecer mi vehículo?", 
+Avenue: "Calle Laberinto"
+
+Prompt: "¿Existe algún punto de carga energético en la avenida de los Sueños?", 
+Avenue: "Avenida de los Sueños"
+
+Prompt: "En la calle Sinfonía, ¿podré cargar mi coche eléctrico?", 
+Avenue: "Calle Sinfonía"
+
+Prompt: "¿Hay algún cargador eléctrico disponible en la calle Real?", 
+Avenue: "Calle Real"
+
+Prompt: "En la avenida Primavera, ¿puedo cargar mi coche eléctrico?", 
+Avenue: "Avenida Primavera"
+
+Prompt: "En la Plaza Mayor, ¿puedo encontrar un cargador eléctrico para mi coche?", 
+Avenue: "Plaza Mayor"
+
+Prompt: "En la avenida del Sol, ¿podré abastecer mi vehículo?", 
+Avenue: "Avenida del Sol"
+
+Prompt: "¿Existe algún punto de carga energético en la calle Central?", 
+Avenue: "Calle Central"
+
+Prompt: "En la avenida de los Álamos, ¿podré cargar mi coche eléctrico?", 
+Avenue: "Avenida de los Álamos"
+
+Prompt: "¿Puedo encontrar un cargador eléctrico en la calle Victoria?", 
+Avenue: "Calle Victoria"
+
+Prompt: "¿Conozco algún punto de carga eléctrica en la calle Independencia?", 
+Avenue: "Calle Independencia"
+
+Prompt: "Quisiera saber si hay algún cargador eléctrico disponible en la avenida Libertador.", 
+Avenue: "Avenida Libertador"
+
+Prompt: "En la Plaza de San Pedro, ¿hay algún punto de carga para coches eléctricos cerca?", 
+Avenue: "Plaza de San Pedro"
+
+Prompt: "¿Hay algún punto de carga cerca de la Plaza del Sol para vehículos eléctricos?", 
+Avenue: "Plaza del Sol"
+
+Prompt: "Quiero saber si hay algún punto de carga energética disponible en la avenida Central.", 
+Avenue: "Avenida Central"
+
+Prompt: "¿Dónde puedo cargar mi coche eléctrico en la calle Serenidad?", 
+Avenue: "Calle Serenidad"
+
+Prompt: "Estoy buscando un cargador eléctrico en la calle Nueva, ¿hay alguno disponible?", 
+Avenue: "Calle Nueva"
+
+Prompt: "En la calle cárcel, a pocos metros de la Plaza de España, ¿hay algún cargador eléctrico disponible?", 
+Avenue: "Calle Cárcel"
+
+Prompt: "Me gustaría saber si hay enchufes para cargar mi vehículo en la calle del Sol", 
+Avenue: "Calle del Sol"
+
+Prompt: "¿Conoces algún lugar en la avenida del Parque donde pueda abastecer mi coche eléctrico?", 
+Avenue: "Avenida del Parque"
+
+Prompt: "En la calle Principal, ¿hay algún punto de carga disponible para vehículos eléctricos?", 
+Avenue: "Calle Principal"
+
+Prompt: "¿Existen enchufes para cargar mi vehículo eléctrico cerca de la Plaza del Ayuntamiento en la calle Concejo de Sagaseta?", 
+Avenue: "Calle Concejo de Sagaseta"
+
+Prompt: "Me gustaría saber si hay disponibles cargadores eléctricos en la calle del Bosque.", 
+Avenue: "Calle del Bosque"
+
+Prompt: "¿Existe alguna alternativa de carga para vehículos eléctricos cerca de la Plaza de la Revolución?", 
+Avenue: "Plaza de la Revolución"
+
+Prompt: "¿Hay opciones de enchufes disponibles para cargar mi vehículo en la calle San Gabriel?", 
+Avenue: "Calle San Gabriel"
+
+Prompt: "Quiero abastecer mi coche eléctrico, ¿existe alguna alternativa en la avenida del Lago?", 
+Avenue: "Avenida del Lago"
+
+Prompt: "En la calle San Martín, ¿se pueden encontrar puntos de carga para vehículos eléctricos?", 
+Avenue: "Calle San Martín"
+
+Prompt: "que tiempo hizo en sevilla el lunes?. Asumiendo que hoy es: 18/06/2023"
+Fecha: 12/06/2023
+Lugar: Sevilla
+
+Prompt: "como está el día hoy en Valladolid. Asumiendo que hoy es: 13/02/2022"
+Fecha: 13/02/2022
+Lugar: Valladolid
+
+Prompt: "En barcelona, cuantos grados hace mañana. Asumiendo que hoy es: 15/06/2023"
+Fecha: 16/06/2023
+Lugar: Barcelona
+
+Prompt: "En Valencia. Asumiendo que hoy es: 18/06/2023"
+Fecha: No se especifica la fecha
+Lugar: Valencia
+
+Prompt: "Para el 25 de abril. Asumiendo que hoy es: 14/02/2023"
+Fecha: 25/04/2023
+Lugar: No se especifica el lugar
+
+Prompt: "¿Cómo estará el clima en Madrid mañana?. Asumiendo que hoy es: 1/12/2023"
+Fecha: 2/12/2023
+Lugar: Madrid
+
+Prompt: "¿Habrá lluvia en Bilbao la próxima semana?. Asumiendo que hoy es: 18/08/2023"
+Fecha: 21/08/2023
+Lugar: Bilbao
+
+Prompt: "Quiero saber la previsión del tiempo en Alicante para el mes de julio. Asumiendo que hoy es: 18/06/2023"
+Fecha: 01/07/2023
+Lugar: Alicante
+
+Prompt: "¿Cuántos grados hará en Granada el próximo fin de semana?. Asumiendo que hoy es: 27/06/2023"
+Fecha: 1/07/2023
+Lugar: Granada
+
+Prompt: "¿Qué temperatura hará en Málaga el viernes?. Asumiendo que hoy es: 18/06/2023"
+Fecha: 23/06/2023
+Lugar: Málaga
+
+Prompt: "¿Qué tiempo hizo en Ateca el pasado jueves? Asumiendo que hoy es: 18/06/2023"
+Fecha: 15/06/2023
+Lugar: Ateca
+
+Prompt: "¿Cómo está el clima hoy en París? Asumiendo que hoy es: 20/02/2022"
+Fecha: 20/02/2022
+Lugar: París
+
+Prompt: "¿Cuántos grados hará mañana en Londres? Asumiendo que hoy es: 17/06/2023"
+Fecha: 18/06/2023
+Lugar: Londres
+
+Prompt: "Dame el pronóstico del tiempo para Palencia. Asumiendo que hoy es: 18/06/2023"
+Fecha: 18/06/2023
+Lugar: Palencia
+
+Prompt: "¿Cómo estará el clima en Ibiza el 30 de abril? Asumiendo que hoy es: 14/02/2023"
+Fecha: 30/04/2023
+Lugar: Ibiza
+
+Prompt: "¿Cuál será el clima en León mañana? Asumiendo que hoy es: 3/12/2023"
+Fecha: 4/12/2023
+Lugar: León
+
+Prompt: "¿Habrá lluvia en Salamanca la próxima semana? Asumiendo que hoy es: 18/08/2023"
+Fecha: 21/08/2023
+Lugar: Salamanca
+
+Prompt: "Quiero saber la previsión del tiempo en Tenerife para el mes de julio. Asumiendo que hoy es: 18/06/2023"
+Fecha: 01/07/2023
+Lugar: Tenerife
+
+Prompt: "¿Qué temperatura hará en Pamplona durante el próximo fin de semana? Asumiendo que hoy es: 27/06/2023"
+Fecha: 01/07/2023
+Lugar: Pamplona
+
+Prompt: "¿Cuál será la temperatura en Oviedo el viernes? Asumiendo que hoy es: 18/06/2023"
+Fecha: 23/06/2023
+Lugar: Oviedo
+
+Prompt: "¿Cómo será el clima en Córdoba el próximo miércoles? Hoy es: 18/06/2023"
+Fecha: 21/06/2023
+Lugar: Córdoba
+
+Prompt: "¿Cómo está el tiempo hoy en Zaragoza? Fecha actual: 20/02/2022"
+Fecha: 20/02/2022
+Lugar: Zaragoza
+
+Prompt: "Dime la temperatura para mañana en Santiago. Hoy es: 17/06/2023"
+Fecha: 18/06/2023
+Lugar: Santiago
+
+Prompt: "¿Cuál es el pronóstico del clima en Murcia? Hoy es: 18/06/2023"
+Fecha: 18/06/2023
+Lugar: Murcia
+
+Prompt: "¿Habrá lluvia en Mallorca el 30 de abril? Fecha actual: 14/02/2023"
+Fecha: 30/04/2023
+Lugar: Mallorca
+
+Prompt: "¿Cómo estará el clima en Santander mañana? Hoy es: 3/12/2023"
+Fecha: 4/12/2023
+Lugar: Santander
+
+Prompt: "¿Habrá precipitaciones en Cáceres la próxima semana? Hoy es: 18/08/2023"
+Fecha: 21/08/2023
+Lugar: Cáceres
+
+Prompt: "¿Puedes decirme la previsión del tiempo en Gijón para septiembre? Hoy es: 18/06/2023"
+Fecha: 01/09/2023
+Lugar: Gijón
+
+Prompt: "¿Cuál será la temperatura en Logroño durante el próximo fin de semana? Hoy es: 27/06/2023"
+Fecha: 01/07/2023
+Lugar: Logroño
+
+Prompt: "¿Qué temperaturas se esperan en Badajoz el viernes? Hoy es: 18/06/2023"
+Fecha: 23/06/2023
+Lugar: Badajoz

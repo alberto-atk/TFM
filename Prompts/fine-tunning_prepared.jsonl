@@ -1,0 +1,120 @@
+{"prompt":"que aparcamientos hay disponibles en malaga? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Malaga\"}}"}
+{"prompt":"que aparcamientos tengo por cáceres? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Cáceres\"}}"}
+{"prompt":"podre estacionar el coche en algún lado de cerdeña ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Cerdeña\"}}"}
+{"prompt":"¿Dónde puedo encontrar aparcamientos disponibles en Zaragoza? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Zaragoza\"}}"}
+{"prompt":"Necesito encontrar aparcamientos en Valladolid, ¿cuáles están disponibles? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Valladolid\"}}"}
+{"prompt":"¿Hay lugares para estacionar el coche en Hong Kong? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Hong Kong\"}}"}
+{"prompt":"Quiero saber los aparcamientos libres en Madrid ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Madrid\"}}"}
+{"prompt":"¿Qué lugares de estacionamiento están disponibles en Barcelona? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Barcelona\"}}"}
+{"prompt":"Necesito encontrar aparcamientos gratuitos en Sevilla, ¿cuáles están disponibles? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Sevilla\"}}"}
+{"prompt":"¿Dónde puedo encontrar aparcamientos libres en Valencia? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Valencia\"}}"}
+{"prompt":"¿Hay lugares para estacionar el coche en Bilbao? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Bilbao\"}}"}
+{"prompt":"Quiero saber los aparcamientos disponibles en Granada ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Granada\"}}"}
+{"prompt":"¿Cuáles son los lugares de estacionamiento gratuitos en Málaga? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Málaga\"}}"}
+{"prompt":"Necesito encontrar aparcamientos en Salamanca, ¿cuáles están libres? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Salamanca\"}}"}
+{"prompt":"¿Dónde puedo estacionar el coche en Lisboa? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Lisboa\"}}"}
+{"prompt":"¿Qué aparcamientos hay disponibles en Ciudad Futura? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Ciudad Futura\"}}"}
+{"prompt":"¿Qué aparcamientos tengo por Villa Imaginaria? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Villa Imaginaria\"}}"}
+{"prompt":"¿Podré estacionar el coche en algún lado de Pueblo Fantasma? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Pueblo Fantasma\"}}"}
+{"prompt":"¿Dónde puedo encontrar aparcamientos disponibles en Nueva Esperanza? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Nueva Esperanza\"}}"}
+{"prompt":"Necesito encontrar aparcamientos en Ciudad Mágica, ¿cuáles están disponibles? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Ciudad Mágica\"}}"}
+{"prompt":"¿Hay lugares para estacionar el coche en Isla Imaginaria? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Isla Imaginaria\"}}"}
+{"prompt":"Quiero saber los aparcamientos libres en Pueblo Encantado ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Pueblo Encantado\"}}"}
+{"prompt":"¿Qué lugares de estacionamiento están disponibles en Ciudad del Futuro? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Ciudad del Futuro\"}}"}
+{"prompt":"Necesito encontrar aparcamientos gratuitos en Villa Soñada, ¿cuáles están disponibles? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Villa Soñada\"}}"}
+{"prompt":"¿Dónde puedo encontrar aparcamientos libres en Ciudad Esmeralda? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Ciudad Esmeralda\"}}"}
+{"prompt":"¿Qué aparcamientos hay disponibles en Edimburgo? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Edimburgo\"}}"}
+{"prompt":"¿Cuáles son los aparcamientos disponibles en Bruselas? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Bruselas\"}}"}
+{"prompt":"¿Dónde puedo encontrar aparcamientos en Austin? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Austin\"}}"}
+{"prompt":"Necesito encontrar aparcamientos en Malmö, ¿cuáles están disponibles? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Malmö\"}}"}
+{"prompt":"¿Hay lugares para estacionar el coche en Auckland? ->","completion":" {\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Auckland\"}}"}
+{"prompt":"en que lugar puedo ver la giralda? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Giralda\"}}"}
+{"prompt":"donde puedo ver la plaza de españa ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"city\": \"Plaza de España\"}}"}
+{"prompt":"En que sitio está la sagrada familia ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"city\": \"Sagrada Familia\"}}"}
+{"prompt":"Dónde puedo encontrar el Coliseo Romano? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Coliseo Romano\"}}"}
+{"prompt":"En qué lugar se encuentra la Torre Eiffel? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Torre Eiffel\"}}"}
+{"prompt":"Donde está el Taj Mahal? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Taj Mahal\"}}"}
+{"prompt":"En qué sitio se encuentra el Cristo Redentor? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Cristo Redentor\"}}"}
+{"prompt":"Dónde puedo ver la Gran Muralla China? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Gran Muralla China\"}}"}
+{"prompt":"En qué lugar puedo ver el Big Ben? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Big Ben\"}}"}
+{"prompt":"Dónde puedo encontrar la Estatua de la Libertad? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Estatua de la Libertad\"}}"}
+{"prompt":"En qué sitio se encuentra el Partenón? ->","completion":" {\"intent\": \"get_monument_locationv\",\"entities\": {\"monument\": \"Partenón\"}}"}
+{"prompt":"Donde está ubicada la Muralla Roja? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Muralla Roja\"}}"}
+{"prompt":"Dónde puedo ver el Coliseo de Roma? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Coliseo de Roma\"}}"}
+{"prompt":"En qué lugar se encuentra el Monte Rushmore? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Monte Rushmore\"}}"}
+{"prompt":"Donde puedo encontrar la Ópera de Sídney? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Ópera de Sídney\"}}"}
+{"prompt":"Dónde está ubicado el Palacio de Buckingham? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Palacio de Buckingham\"}}"}
+{"prompt":"En qué lugar puedo ver las Pirámides de Giza? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Pirámides de Giza\"}}"}
+{"prompt":"Dónde puedo encontrar la Estatua de Cristo Rey? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Estatua de Cristo Rey\"}}"}
+{"prompt":"En qué sitio se encuentra la Acrópolis de Atenas? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Acrópolis de Atenas\"}}"}
+{"prompt":"Donde está ubicado el Machu Picchu? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Machu Picchu\"}}"}
+{"prompt":"Dónde puedo ver la Estatua de la Victoria de Samotracia? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Estatua de la Victoria de Samotracia\"}}"}
+{"prompt":"En qué lugar se encuentra el Monte Everest? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Monte Everest\"}}"}
+{"prompt":"Donde puedo encontrar la Ciudad Prohibida? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Ciudad Prohibida\"}}"}
+{"prompt":"Dónde está ubicada la Estatua de la Libertad? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Estatua de la Libertad\"}}"}
+{"prompt":"En qué lugar puedo ver la Ciudad de Petra? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Ciudad de Petra\"}}"}
+{"prompt":"Dónde puedo encontrar el Palacio de Versalles? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Palacio de Versalles\"}}"}
+{"prompt":"En qué sitio se encuentra la Estatua de la Libertad? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Estatua de la Libertad\"}}"}
+{"prompt":"Donde está ubicado el Taj Mahal? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Taj Mahal\"}}"}
+{"prompt":"En qué lugar se encuentra el Monte Fuji? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Monte Fuji\"}}"}
+{"prompt":"Donde puedo encontrar la Ópera de Sydney? ->","completion":" {\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Ópera de Sydney\"}}"}
+{"prompt":"tengo algún cargador eléctrico disponibles en la avenida de juan lpez de pealver ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida de Juan Lpez de Pealver\"}}"}
+{"prompt":"en la calle Mara Curie puedo cargar mi coche? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Mara Curie\"}}"}
+{"prompt":"¿Habrá enchufes para cargar mi coche en la avenida Mística? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida Mística\"}}"}
+{"prompt":"En la calle Laberinto, ¿podré abastecer mi vehículo? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Laberinto\"}}"}
+{"prompt":"¿Existe algún punto de carga energético en la avenida de los Sueños? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida de los Sueños\"}}"}
+{"prompt":"En la calle Sinfonía, ¿podré cargar mi coche eléctrico? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Sinfonía\"}}"}
+{"prompt":"¿Hay algún cargador eléctrico disponible en la calle Real? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Real\"}}"}
+{"prompt":"En la avenida Primavera, ¿puedo cargar mi coche eléctrico? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida Primavera\"}}"}
+{"prompt":"En la Plaza Mayor, ¿puedo encontrar un cargador eléctrico para mi coche? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Plaza Mayor\"}}"}
+{"prompt":"En la avenida del Sol, ¿podré abastecer mi vehículo? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida del Sol\"}}"}
+{"prompt":"¿Existe algún punto de carga energético en la calle Central? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Central\"}}"}
+{"prompt":"En la avenida de los Álamos, ¿podré cargar mi coche eléctrico? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida de los Álamos\"}}"}
+{"prompt":"¿Puedo encontrar un cargador eléctrico en la calle Victoria? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Victoria\"}}"}
+{"prompt":"¿Conozco algún punto de carga eléctrica en la calle Independencia? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Independencia\"}}"}
+{"prompt":"Quisiera saber si hay algún cargador eléctrico disponible en la avenida Libertador. ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida Libertador\"}}"}
+{"prompt":"En la Plaza de San Pedro, ¿hay algún punto de carga para coches eléctricos cerca? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Plaza de San Pedro\"}}"}
+{"prompt":"¿Hay algún punto de carga cerca de la Plaza del Sol para vehículos eléctricos? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Plaza del Sol\"}}"}
+{"prompt":"Quiero saber si hay algún punto de carga energética disponible en la avenida Central. ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida Central\"}}"}
+{"prompt":"¿Dónde puedo cargar mi coche eléctrico en la calle Serenidad? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Serenidad\"}}"}
+{"prompt":"Estoy buscando un cargador eléctrico en la calle Nueva, ¿hay alguno disponible? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Nueva\"}}"}
+{"prompt":"En la calle cárcel, a pocos metros de la Plaza de España, ¿hay algún cargador eléctrico disponible? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Cárcel\"}}"}
+{"prompt":"Me gustaría saber si hay enchufes para cargar mi vehículo en la calle del Sol ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle del Sol\"}}"}
+{"prompt":"¿Conoces algún lugar en la avenida del Parque donde pueda abastecer mi coche eléctrico? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida del Parque\"}}"}
+{"prompt":"En la calle Principal, ¿hay algún punto de carga disponible para vehículos eléctricos? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Principal\"}}"}
+{"prompt":"¿Existen enchufes para cargar mi vehículo eléctrico cerca de la Plaza del Ayuntamiento en la calle Concejo de Sagaseta? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Concejo de Sagaseta\"}}"}
+{"prompt":"Me gustaría saber si hay disponibles cargadores eléctricos en la calle del Bosque. ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle del Bosque\"}}"}
+{"prompt":"¿Existe alguna alternativa de carga para vehículos eléctricos cerca de la Plaza de la Revolución? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Plaza de la Revolución\"}}"}
+{"prompt":"¿Hay opciones de enchufes disponibles para cargar mi vehículo en la calle San Gabriel? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle San Gabriel\"}}"}
+{"prompt":"Quiero abastecer mi coche eléctrico, ¿existe alguna alternativa en la avenida del Lago? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida del Lago\"}}"}
+{"prompt":"En la calle San Martín, ¿se pueden encontrar puntos de carga para vehículos eléctricos? ->","completion":" {\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle San Martín\"}}"}
+{"prompt":"que tiempo hizo en sevilla el lunes?. Asumiendo que hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Sevilla\",\"date\": \"12\/06\/2023\"}}"}
+{"prompt":"como está el día hoy en Valladolid. Asumiendo que hoy es: 13\/02\/2022 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Valladolid\",\"date\": \"13\/02\/2022\"}}"}
+{"prompt":"En barcelona, cuantos grados hace mañana. Asumiendo que hoy es: 15\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Barcelona\",\"date\": \"16\/06\/2023\"}}"}
+{"prompt":"En Valencia. Asumiendo que hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Valencia\"}}"}
+{"prompt":"Para el 25 de abril. Asumiendo que hoy es: 14\/02\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"date\": \"25\/04\/2023\"}}"}
+{"prompt":"¿Cómo estará el clima en Madrid mañana?. Asumiendo que hoy es: 1\/12\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Madrid\",\"date\": \"2\/12\/2023\"}}"}
+{"prompt":"¿Habrá lluvia en Bilbao la próxima semana?. Asumiendo que hoy es: 18\/08\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Bilbao\",\"date\": \"21\/08\/2023\"}}"}
+{"prompt":"Quiero saber la previsión del tiempo en Alicante para el mes de julio. Asumiendo que hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Alicante\",\"date\": \"01\/07\/2023\"}}"}
+{"prompt":"¿Cuántos grados hará en Granada el próximo fin de semana?. Asumiendo que hoy es: 27\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Granada\",\"date\": \"1\/07\/2023\"}}"}
+{"prompt":"¿Qué temperatura hará en Málaga el viernes?. Asumiendo que hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Málaga\",\"date\": \"23\/06\/2023\"}}"}
+{"prompt":"¿Qué tiempo hizo en Ateca el pasado jueves? Asumiendo que hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Ateca\",\"date\": \"15\/06\/2023\"}}"}
+{"prompt":"¿Cómo está el clima hoy en París? Asumiendo que hoy es: 20\/02\/2022 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"París\",\"date\": \"20\/02\/2022\"}}"}
+{"prompt":"¿Cuántos grados hará mañana en Londres? Asumiendo que hoy es: 17\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Londres\",\"date\": \"18\/06\/2023\"}}"}
+{"prompt":"Dame el pronóstico del tiempo para Palencia. Asumiendo que hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Palencia\",\"date\": \"18\/06\/2023\"}}"}
+{"prompt":"¿Cómo estará el clima en Ibiza el 30 de abril? Asumiendo que hoy es: 14\/02\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Ibiza\",\"date\": \"30\/04\/2023\"}}"}
+{"prompt":"¿Cuál será el clima en León mañana? Asumiendo que hoy es: 3\/12\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"León\",\"date\": \"4\/12\/2023\"}}"}
+{"prompt":"¿Habrá lluvia en Salamanca la próxima semana? Asumiendo que hoy es: 18\/08\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Salamanca\",\"date\": \"21\/08\/2023\"}}"}
+{"prompt":"Quiero saber la previsión del tiempo en Tenerife para el mes de julio. Asumiendo que hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Tenerife\",\"date\": \"1\/07\/2023\"}}"}
+{"prompt":"¿Qué temperatura hará en Pamplona durante el próximo fin de semana? Asumiendo que hoy es: 27\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Pamplona\",\"date\": \"1\/07\/2023\"}}"}
+{"prompt":"¿Cuál será la temperatura en Oviedo el viernes? Asumiendo que hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Oviedo\",\"date\": \"23\/06\/2023\"}}"}
+{"prompt":"¿Cómo será el clima en Córdoba el próximo miércoles? Hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Córdoba\",\"date\": \"21\/06\/2023\"}}"}
+{"prompt":"¿Cómo está el tiempo hoy en Zaragoza? Fecha actual: 20\/02\/2022 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Zaragoza\",\"date\": \"20\/02\/2022\"}}"}
+{"prompt":"Dime la temperatura para mañana en Santiago. Hoy es: 17\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Santiago\",\"date\": \"18\/06\/2023\"}}"}
+{"prompt":"¿Cuál es el pronóstico del clima en Murcia? Hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Murcia\",\"date\": \"18\/06\/2023\"}}"}
+{"prompt":"¿Habrá lluvia en Mallorca el 30 de abril? Fecha actual: 14\/02\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Mallorca\",\"date\": \"30\/04\/2023\"}}"}
+{"prompt":"¿Cómo estará el clima en Santander mañana? Hoy es: 3\/12\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Santander\",\"date\": \"4\/12\/2023\"}}"}
+{"prompt":"¿Habrá precipitaciones en Cáceres la próxima semana? Hoy es: 18\/08\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Cáceres\",\"date\": \"21\/08\/2023\"}}"}
+{"prompt":"¿Puedes decirme la previsión del tiempo en Gijón para septiembre? Hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Gijón\",\"date\": \"01\/09\/2023\"}}"}
+{"prompt":"¿Cuál será la temperatura en Logroño durante el próximo fin de semana? Hoy es: 27\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Logroño\",\"date\": \"01\/07\/2023\"}}"}
+{"prompt":"¿Qué temperaturas se esperan en Badajoz el viernes? Hoy es: 18\/06\/2023 ->","completion":" {\"intent\": \"get_weather\",\"entities\":{\"city\": \"Badajoz\",\"date\": \"23\/06\/2023\"}}"}
