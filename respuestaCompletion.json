@@ -1,0 +1,21 @@
+{
+    "id": "chatcmpl-7TE3qO5Q3TCAZjaiU4QOyuGRuYwvb",
+    "object": "chat.completion",
+    "created": 1687199918,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 343,
+        "completion_tokens": 432,
+        "total_tokens": 775
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "El monumento se llama Alcazaba y es un palacio-fortaleza construido principalmente en el siglo XI por los gobernantes musulmanes de la ciudad de M\u00e1laga. Es uno de los monumentos m\u00e1s emblem\u00e1ticos de la capital malague\u00f1a y se encuentra ubicado en la calle Alcazabilla, 2. Es importante mencionar que tiene accesos limitados para personas con movilidad reducida.\n\nLos horarios de visita son diferentes en invierno y verano. Durante el periodo del 1 de abril al 31 de octubre, est\u00e1 abierto de 9:00 a 20:00 horas, mientras que durante el periodo del 1 de noviembre al 31 de marzo, est\u00e1 abierto de 9:00 a 18:00 horas. El monumento est\u00e1 abierto todos los d\u00edas del a\u00f1o.\n\nLos precios de entrada var\u00edan dependiendo del tipo de visita y del grupo al que perteneces. El precio normal es de 3,50 Euros para la entrada \u00fanica a la Alcazaba y de 5,50 Euros para la visita conjunta de la Alcazaba y el Castillo de Gibralfaro. Existe un precio reducido de 1,50 Euros para ciertos colectivos como ni\u00f1os de entre 6 y 16 a\u00f1os, estudiantes, mayores de 65 a\u00f1os, jubilados, desempleados, discapacitados con un m\u00ednimo del 33% de discapacidad y usuarios de la tarjeta M\u00c1LAGACARD. En el caso de la visita conjunta, el precio reducido es de 2,50 Euros. Adem\u00e1s, los grupos de al menos 10 personas pueden acceder a un precio especial de 2,50 Euros para la entrada \u00fanica y de 4,00 Euros para la visita conjunta. Los domingos a partir de las 14:00 horas y hasta el cierre, la visita es gratuita.\n\nFinalmente, cabe destacar que no existe tarjeta joven para acceder al monumento."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}

@@ -88,33 +88,33 @@
 {"prompt": "¿Hay opciones de enchufes disponibles para cargar mi vehículo en la calle San Gabriel?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle San Gabriel\"}}"}
 {"prompt": "Quiero abastecer mi coche eléctrico, ¿existe alguna alternativa en la avenida del Lago?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida del Lago\"}}"}
 {"prompt": "En la calle San Martín, ¿se pueden encontrar puntos de carga para vehículos eléctricos?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle San Martín\"}}"}
-{"prompt":"que tiempo hizo en sevilla el lunes?. Asumiendo que hoy es: 18/06/2023","completion":"{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Sevilla\",\"date\": \"12/06/2023\"}}"}
-{"prompt": "como está el día hoy en Valladolid. Asumiendo que hoy es: 13/02/2022","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Valladolid\",\"date\": \"13/02/2022\"}}"}
-{"prompt": "En barcelona, cuantos grados hace mañana. Asumiendo que hoy es: 15/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Barcelona\",\"date\": \"16/06/2023\"}}"}
-{"prompt": "En Valencia. Asumiendo que hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Valencia\"}}"}
-{"prompt": "Para el 25 de abril. Asumiendo que hoy es: 14/02/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"date\": \"25/04/2023\"}}"}
-{"prompt": "¿Cómo estará el clima en Madrid mañana?. Asumiendo que hoy es: 1/12/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Madrid\",\"date\": \"2/12/2023\"}}"}
-{"prompt": "¿Habrá lluvia en Bilbao la próxima semana?. Asumiendo que hoy es: 18/08/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Bilbao\",\"date\": \"21/08/2023\"}}"}
-{"prompt": "Quiero saber la previsión del tiempo en Alicante para el mes de julio. Asumiendo que hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Alicante\",\"date\": \"01/07/2023\"}}"}
-{"prompt": "¿Cuántos grados hará en Granada el próximo fin de semana?. Asumiendo que hoy es: 27/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Granada\",\"date\": \"1/07/2023\"}}"}
-{"prompt": "¿Qué temperatura hará en Málaga el viernes?. Asumiendo que hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Málaga\",\"date\": \"23/06/2023\"}}"}
-{"prompt": "¿Qué tiempo hizo en Ateca el pasado jueves? Asumiendo que hoy es: 18/06/2023","completion":"{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Ateca\",\"date\": \"15/06/2023\"}}"}
-{"prompt": "¿Cómo está el clima hoy en París? Asumiendo que hoy es: 20/02/2022","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"París\",\"date\": \"20/02/2022\"}}"}
-{"prompt": "¿Cuántos grados hará mañana en Londres? Asumiendo que hoy es: 17/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Londres\",\"date\": \"18/06/2023\"}}"}
-{"prompt": "Dame el pronóstico del tiempo para Palencia. Asumiendo que hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Palencia\",\"date\": \"18/06/2023\"}}"}
-{"prompt": "¿Cómo estará el clima en Ibiza el 30 de abril? Asumiendo que hoy es: 14/02/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Ibiza\",\"date\": \"30/04/2023\"}}"}
-{"prompt": "¿Cuál será el clima en León mañana? Asumiendo que hoy es: 3/12/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"León\",\"date\": \"4/12/2023\"}}"}
-{"prompt": "¿Habrá lluvia en Salamanca la próxima semana? Asumiendo que hoy es: 18/08/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Salamanca\",\"date\": \"21/08/2023\"}}"}
-{"prompt": "Quiero saber la previsión del tiempo en Tenerife para el mes de julio. Asumiendo que hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Tenerife\",\"date\": \"1/07/2023\"}}"}
-{"prompt": "¿Qué temperatura hará en Pamplona durante el próximo fin de semana? Asumiendo que hoy es: 27/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Pamplona\",\"date\": \"1/07/2023\"}}"}
-{"prompt": "¿Cuál será la temperatura en Oviedo el viernes? Asumiendo que hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Oviedo\",\"date\": \"23/06/2023\"}}"}
-{"prompt": "¿Cómo será el clima en Córdoba el próximo miércoles? Hoy es: 18/06/2023","completion":"{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Córdoba\",\"date\": \"21/06/2023\"}}"}
-{"prompt": "¿Cómo está el tiempo hoy en Zaragoza? Fecha actual: 20/02/2022","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Zaragoza\",\"date\": \"20/02/2022\"}}"}
-{"prompt": "Dime la temperatura para mañana en Santiago. Hoy es: 17/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Santiago\",\"date\": \"18/06/2023\"}}"}
-{"prompt": "¿Cuál es el pronóstico del clima en Murcia? Hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Murcia\",\"date\": \"18/06/2023\"}}"}
-{"prompt": "¿Habrá lluvia en Mallorca el 30 de abril? Fecha actual: 14/02/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Mallorca\",\"date\": \"30/04/2023\"}}"}
-{"prompt": "¿Cómo estará el clima en Santander mañana? Hoy es: 3/12/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Santander\",\"date\": \"4/12/2023\"}}"}
-{"prompt": "¿Habrá precipitaciones en Cáceres la próxima semana? Hoy es: 18/08/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Cáceres\",\"date\": \"21/08/2023\"}}"}
-{"prompt": "¿Puedes decirme la previsión del tiempo en Gijón para septiembre? Hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Gijón\",\"date\": \"01/09/2023\"}}"}
-{"prompt": "¿Cuál será la temperatura en Logroño durante el próximo fin de semana? Hoy es: 27/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Logroño\",\"date\": \"01/07/2023\"}}"}
-{"prompt": "¿Qué temperaturas se esperan en Badajoz el viernes? Hoy es: 18/06/2023","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Badajoz\",\"date\": \"23/06/2023\"}}"}
+{"prompt":"que tiempo hizo en sevilla el lunes?.","completion":"{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Sevilla\"}}"}
+{"prompt": "como está el día hoy en Valladolid.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Valladolid\"}}"}
+{"prompt": "En barcelona, cuantos grados hace mañana.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Barcelona\"}}"}
+{"prompt": "En Valencia.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Valencia\"}}"}
+{"prompt": "¿Cómo estará el clima en Madrid mañana?.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Madrid\"}}"}
+{"prompt": "¿Habrá lluvia en Bilbao la próxima semana?.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Bilbao\"}}"}
+{"prompt": "Quiero saber la previsión del tiempo en Alicante para el mes de julio.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Alicante\"}}"}
+{"prompt": "¿Cuántos grados hará en Granada el próximo fin de semana?.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Granada\"}}"}
+{"prompt": "¿Qué temperatura hará en Málaga el viernes?.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Málaga\"}}"}
+{"prompt": "¿Qué tiempo hizo en Ateca el pasado jueves?","completion":"{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Ateca\"}}"}
+{"prompt": "¿Cómo está el clima hoy en París?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"París\"}}"}
+{"prompt": "¿Cuántos grados hará mañana en Londres?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Londres\"}}"}
+{"prompt": "Dame el pronóstico del tiempo para Palencia.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Palencia\"}}"}
+{"prompt": "¿Cómo estará el clima en Ibiza el 30 de abril?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Ibiza\"}}"}
+{"prompt": "¿Cuál será el clima en León mañana?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"León\"}}"}
+{"prompt": "¿Habrá lluvia en Salamanca la próxima semana?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Salamanca\"}}"}
+{"prompt": "Quiero saber la previsión del tiempo en Tenerife para el mes de julio.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Tenerife\"}}"}
+{"prompt": "¿Qué temperatura hará en Pamplona durante el próximo fin de semana?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Pamplona\"}}"}
+{"prompt": "¿Cuál será la temperatura en Oviedo el viernes?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Oviedo\"}}"}
+{"prompt": "¿Cómo será el clima en Córdoba el próximo miércoles?","completion":"{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Córdoba\"}}"}
+{"prompt": "¿Cómo está el tiempo hoy en Zaragoza?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Zaragoza\"}}"}
+{"prompt": "Dime la temperatura para mañana en Santiago.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Santiago\"}}"}
+{"prompt": "¿Cuál es el pronóstico del clima en Murcia?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Murcia\"}}"}
+{"prompt": "¿Habrá lluvia en Mallorca el 30 de abril?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Mallorca\"}}"}
+{"prompt": "¿Cómo estará el clima en Santander mañana?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Santander\"}}"}
+{"prompt": "¿Habrá precipitaciones en Cáceres la próxima semana?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Cáceres\"}}"}
+{"prompt": "¿Puedes decirme la previsión del tiempo en Gijón para septiembre?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Gijón\"}}"}
+{"prompt": "¿Cuál será la temperatura en Logroño durante el próximo fin de semana?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Logroño\"}}"}
+{"prompt": "¿Qué temperaturas se esperan en Badajoz el viernes?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Badajoz\"}}"}
+{"prompt": "¿Qué tal estará el tiempo por Porriño?","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Porriño\"}}"}
