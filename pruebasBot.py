@@ -5,7 +5,6 @@ from openai.api_resources import Completion
 #export OPENAI_API_KEY="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"
 
 def getResponse(data):
-
     openai.api_key = "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"
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -24,9 +23,9 @@ def getResponse(data):
 
 
 def getAction(sentence):
-    
+    """
     openai.api_key = "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"
-    date = "18/06/2023"
+    
     response = openai.Completion.create(
         model="ada:ft-personal:tfm-v2-2023-06-19-16-16-31",
         prompt=sentence+" ->",
@@ -36,30 +35,30 @@ def getAction(sentence):
         diccionario_respuesta = json.loads(response.choices[0].text+"}}")
     except ValueError:
         diccionario_respuesta = json.loads("{\"intent\":\"\",\"entities\":\"\"}")
-    """
-    diccionario_respuesta = json.loads("{\"intent\": \"get_monument_location\",\"entities\":{\"monument\": \"Alcazaba\"}}")
-    """
-    print(diccionario_respuesta)
+    """    
+    diccionario_respuesta = json.loads("{\"intent\": \"get-electric-charger\",\"entities\":{\"avenue\": \"Calle María Curie\"}}")
+    
+    #print(diccionario_respuesta)
     switch = {
         "get-free-parkings": getParkingsFunction,
         "get_monument_location": getMonumentsFunction,
         "get_weather": getTemperatureFunction,
         "get-electric-charger": getElectricChargersFunction
     }
-
+    
     accionEscogida = switch.get(diccionario_respuesta["intent"], funcionNoEncontrada)
     
-
     return accionEscogida(diccionario_respuesta["entities"])
 
 def getParkingsFunction(entities):
-    print("El parking es tal:" + entities)
-
+    print("ñslñk")
 
 def getDataAPIMalaga(url):
     apis = {
         ("https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/"+
          "equipamientos/da_cultura_ocio_monumentos-25830.csv"):"monumentos.csv",
+        ("https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/"+
+         "equipamientos/da_cve-25830.csv"):"cargadores.csv"
     }
     if url in apis.keys():
         archivo = requests.get(url, stream=True)
@@ -76,7 +75,7 @@ from sentence_transformers import SentenceTransformer, util
 def checkSimilarity(texto1, texto2):
     model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
     similarity_score = util.cos_sim(model.encode([texto1]), model.encode([texto2]))
-    print(similarity_score.item())
+    #print(similarity_score.item())
     return True if similarity_score.item() >= 0.7 else False
 
 def getMonumentsFunction(entities):
@@ -85,15 +84,15 @@ def getMonumentsFunction(entities):
     
     for indice, fila in monuments.iterrows():
         #Versión biblio, sin sentence-similarity
-        """
+        
         if entities["monument"].lower() == fila["NOMBRE"].lower():
             mensajeCompletion = ("Explica los detalles del monumento desde los siguientes datos:\n" + 
-                "Nombre: " + str(fila["NOMBRE"].replace("\n"," ")) + "\n"
-                "Descripción: " + str(fila["DESCRIPCION"].replace("\n"," ")) + "\n"
-                "Dirección: " + str(fila["DIRECCION"].replace("\n"," ")) + "\n"
-                "Horarios: " + str(fila["HORARIOS"].replace("\n"," ")) + "\n"
-                "Precios: " + str(fila["PRECIOS"].replace("\n"," ")) + "\n"
-                "Tarjeta Joven: " + str(fila["TARJETAJOVEN"].replace("\n"," ")) + "\n")
+                "Nombre: " + str(fila["NOMBRE"]).replace("\n"," ") + "\n"
+                "Descripción: " + str(fila["DESCRIPCION"]).replace("\n"," ") + "\n"
+                "Dirección: " + str(fila["DIRECCION"]).replace("\n"," ") + "\n"
+                "Horarios: " + str(fila["HORARIOS"]).replace("\n"," ") + "\n"
+                "Precios: " + str(fila["PRECIOS"]).replace("\n"," ") + "\n"
+                "Tarjeta Joven: " + str(fila["TARJETAJOVEN"]).replace("\n"," ") + "\n")
             return getResponse(mensajeCompletion)
         """
         similarity = checkSimilarity(entities["monument"].lower(),fila["NOMBRE"].lower())
@@ -107,13 +106,42 @@ def getMonumentsFunction(entities):
                 "Precios: " + str(fila["PRECIOS"]).replace("\n"," ") + "\n"
                 "Tarjeta Joven: " + str(fila["TARJETAJOVEN"]).replace("\n"," ") + "\n")
             return getResponse(mensajeCompletion)
+        """
     return "Monumento no encontrado"
         
 def getTemperatureFunction(entities):
     print("La ciudad es tal:" + entities)
 
 def getElectricChargersFunction(entities):
-    print("El cargador es tal:" + entities)
+    url = "https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_cve-25830.csv"
+    parkings = getDataAPIMalaga(url)
+    for indice, fila in parkings.iterrows():
+        #Versión biblio, sin sentence-similarity
+
+        #print(entities["avenue"].lower())
+        #print(' '.join(fila["NOMBRE"].split()[1:]).lower())
+        #if entities["avenue"].lower() == ' '.join(fila["NOMBRE"].split()[1:]).lower():
+        #    aux = dict(eval(fila["INFOESP"])[0])
+        #    mensajeCompletion = ("Explica los detalles del punto de carga eléctrica basado en los siguientes datos:\n" + 
+        #        "Dirección: " + str(fila["DIRECCION"]).replace("\n"," ") + "\n"
+        #        "Descripción: " + str(fila["DESCRIPCION"]).replace("\n"," ") + "\n"
+        #        "Tipo de carga: " + str(aux["Tipologia_de_carga"]).replace("\n"," ") + "\n"
+        #        "Plazas disponibles: " + str(aux["Plazas_de_vehiculo_disponibles_para_recarga"]).replace("\n"," ") + "\n"
+        #        "Número de puntos: " + str(aux["Numero_de_puntos_de_recarga"]).replace("\n"," ") + "\n")
+        #    return getResponse(mensajeCompletion)
+        
+        similarity = checkSimilarity(entities["avenue"].lower(),' '.join(fila["NOMBRE"].split()[1:]).lower())
+        #print(entities["avenue"].lower() + " " +' '.join(fila["NOMBRE"].split()[1:]).lower())
+        if similarity == True:
+            aux = dict(eval(fila["INFOESP"])[0])
+            mensajeCompletion = ("Explica los detalles del punto de carga eléctrica basado en los siguientes datos:\n" + 
+                "Dirección: " + str(fila["DIRECCION"]).replace("\n"," ") + "\n"
+                "Descripción: " + str(fila["DESCRIPCION"]).replace("\n"," ") + "\n"
+                "Tipo de carga: " + str(aux["Tipologia_de_carga"]).replace("\n"," ") + "\n"
+                "Plazas disponibles: " + str(aux["Plazas_de_vehiculo_disponibles_para_recarga"]).replace("\n"," ") + "\n"
+                "Número de puntos: " + str(aux["Numero_de_puntos_de_recarga"]).replace("\n"," ") + "\n")
+            return getResponse(mensajeCompletion)
+    return "Cargador eléctrico no encontrado"
 
 def funcionNoEncontrada(entities):
     return("Lo siento, no soy capaz de realizar esta función")
