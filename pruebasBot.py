@@ -23,7 +23,7 @@ def getResponse(data):
 
 
 def getAction(sentence):
-    """
+    
     openai.api_key = "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"
     
     response = openai.Completion.create(
@@ -35,8 +35,8 @@ def getAction(sentence):
         diccionario_respuesta = json.loads(response.choices[0].text+"}}")
     except ValueError:
         diccionario_respuesta = json.loads("{\"intent\":\"\",\"entities\":\"\"}")
-    """    
-    diccionario_respuesta = json.loads("{\"intent\": \"get-electric-charger\",\"entities\":{\"avenue\": \"Calle María Curie\"}}")
+        
+    #diccionario_respuesta = json.loads("{\"intent\": \"get-electric-charger\",\"entities\":{\"avenue\": \"Calle María Curie\"}}")
     
     #print(diccionario_respuesta)
     switch = {
@@ -45,13 +45,12 @@ def getAction(sentence):
         "get_weather": getTemperatureFunction,
         "get-electric-charger": getElectricChargersFunction
     }
-    
+    print(diccionario_respuesta)
     accionEscogida = switch.get(diccionario_respuesta["intent"], funcionNoEncontrada)
-    
     return accionEscogida(diccionario_respuesta["entities"])
 
 def getParkingsFunction(entities):
-    print("ñslñk")
+    return ("ñslñk")
 
 def getDataAPIMalaga(url):
     apis = {
@@ -84,7 +83,7 @@ def getMonumentsFunction(entities):
     
     for indice, fila in monuments.iterrows():
         #Versión biblio, sin sentence-similarity
-        
+        """
         if entities["monument"].lower() == fila["NOMBRE"].lower():
             mensajeCompletion = ("Explica los detalles del monumento desde los siguientes datos:\n" + 
                 "Nombre: " + str(fila["NOMBRE"]).replace("\n"," ") + "\n"
@@ -96,7 +95,7 @@ def getMonumentsFunction(entities):
             return getResponse(mensajeCompletion)
         """
         similarity = checkSimilarity(entities["monument"].lower(),fila["NOMBRE"].lower())
-        print(entities["monument"].lower() + " " +fila["NOMBRE"].lower())
+        #print(entities["monument"].lower() + " " +fila["NOMBRE"].lower())
         if similarity == True:
             mensajeCompletion = ("Explica los detalles del monumento desde los siguientes datos:\n" + 
                 "Nombre: " + str(fila["NOMBRE"]).replace("\n"," ") + "\n"
@@ -106,11 +105,30 @@ def getMonumentsFunction(entities):
                 "Precios: " + str(fila["PRECIOS"]).replace("\n"," ") + "\n"
                 "Tarjeta Joven: " + str(fila["TARJETAJOVEN"]).replace("\n"," ") + "\n")
             return getResponse(mensajeCompletion)
-        """
     return "Monumento no encontrado"
         
 def getTemperatureFunction(entities):
-    print("La ciudad es tal:" + entities)
+    url = "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather"
+
+    querystring = {"city":entities["city"]}
+
+    headers = {
+        "X-RapidAPI-Key": "d08972acafmsh47671a8215e3be1p1fa5afjsncfa144723584",
+        "X-RapidAPI-Host": "weather-by-api-ninjas.p.rapidapi.com"
+    }
+
+    response = json.loads(str(requests.request("GET", url, headers=headers, params=querystring).text))
+    if "error" in response.keys():
+        return "Localidad no encontrada en nuestros datos"
+    mensajeCompletion = ("Elabora un pronóstico del tiempo basado en estos datos:\n"+
+                        "Ciudad: " + str(entities["city"]) + "\n"+
+                        "Temperatura: " + str(response["temp"]) + "\n"+
+                        "Sensación Térmica: " + str(response["feels_like"]) + "\n"+
+                        "Humedad: " + str(response["humidity"]) + "\n"     +              
+                        "Temperatura Mínima: " + str(response["min_temp"]) + "\n"+
+                        "Temperatura Máxima: " + str(response["max_temp"]) + "\n"+
+                        "Velocidad del viento: " + str(response["wind_speed"]) + "\n")
+    return getResponse(mensajeCompletion)
 
 def getElectricChargersFunction(entities):
     url = "https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_cve-25830.csv"
