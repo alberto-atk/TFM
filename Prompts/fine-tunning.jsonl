@@ -1,36 +1,36 @@
-{"prompt":"que aparcamientos hay disponibles en malaga?","completion":"{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Malaga\"}}"}
-{"prompt": "que aparcamientos tengo por cáceres?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Cáceres\"}}"}
-{"prompt": "podre estacionar el coche en algún lado de cerdeña","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Cerdeña\"}}"}
-{"prompt": "¿Dónde puedo encontrar aparcamientos disponibles en Zaragoza?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Zaragoza\"}}"}
-{"prompt": "Necesito encontrar aparcamientos en Valladolid, ¿cuáles están disponibles?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Valladolid\"}}"}
-{"prompt": "¿Hay lugares para estacionar el coche en Hong Kong?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Hong Kong\"}}"}
-{"prompt": "Quiero saber los aparcamientos libres en Madrid","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Madrid\"}}"}
-{"prompt":"¿Qué lugares de estacionamiento están disponibles en Barcelona?","completion":"{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Barcelona\"}}"}
-{"prompt": "Necesito encontrar aparcamientos gratuitos en Sevilla, ¿cuáles están disponibles?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Sevilla\"}}"}
-{"prompt": "¿Dónde puedo encontrar aparcamientos libres en Valencia?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Valencia\"}}"}
-{"prompt": "¿Hay lugares para estacionar el coche en Bilbao?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Bilbao\"}}"}
-{"prompt": "Quiero saber los aparcamientos disponibles en Granada","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Granada\"}}"}
-{"prompt": "¿Cuáles son los lugares de estacionamiento gratuitos en Málaga?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Málaga\"}}"}
-{"prompt": "Necesito encontrar aparcamientos en Salamanca, ¿cuáles están libres?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Salamanca\"}}"}
-{"prompt": "¿Dónde puedo estacionar el coche en Lisboa?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Lisboa\"}}"}
-{"prompt":"¿Qué aparcamientos hay disponibles en Ciudad Futura?","completion":"{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Ciudad Futura\"}}"}
-{"prompt": "¿Qué aparcamientos tengo por Villa Imaginaria?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Villa Imaginaria\"}}"}
-{"prompt": "¿Podré estacionar el coche en algún lado de Pueblo Fantasma?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Pueblo Fantasma\"}}"}
-{"prompt": "¿Dónde puedo encontrar aparcamientos disponibles en Nueva Esperanza?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Nueva Esperanza\"}}"}
-{"prompt": "Necesito encontrar aparcamientos en Ciudad Mágica, ¿cuáles están disponibles?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Ciudad Mágica\"}}"}
-{"prompt": "¿Hay lugares para estacionar el coche en Isla Imaginaria?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Isla Imaginaria\"}}"}
-{"prompt": "Quiero saber los aparcamientos libres en Pueblo Encantado","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Pueblo Encantado\"}}"}
-{"prompt":"¿Qué lugares de estacionamiento están disponibles en Ciudad del Futuro?","completion":"{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Ciudad del Futuro\"}}"}
-{"prompt": "Necesito encontrar aparcamientos gratuitos en Villa Soñada, ¿cuáles están disponibles?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Villa Soñada\"}}"}
-{"prompt": "¿Dónde puedo encontrar aparcamientos libres en Ciudad Esmeralda?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Ciudad Esmeralda\"}}"}
-{"prompt":"¿Qué aparcamientos hay disponibles en Edimburgo?","completion":"{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Edimburgo\"}}"}
-{"prompt": "¿Cuáles son los aparcamientos disponibles en Bruselas?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Bruselas\"}}"}
-{"prompt": "¿Dónde puedo encontrar aparcamientos en Austin?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Austin\"}}"}
-{"prompt": "Necesito encontrar aparcamientos en Malmö, ¿cuáles están disponibles?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Malmö\"}}"}
-{"prompt": "¿Hay lugares para estacionar el coche en Auckland?","completion": "{\"intent\": \"get-free-parkings\",\"entities\": {\"city\": \"Auckland\"}}"}
+{"prompt":"que aparcamientos hay disponibles en la avenida de la victoria?","completion":"{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida de la Victoria\"}}"}
+{"prompt": "que aparcamientos tengo por la Calle del Sol?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Calle del Sol\"}}"}
+{"prompt": "podre estacionar el coche en algún lado de la Plaza Mayor","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza Mayor\"}}"}
+{"prompt": "¿Dónde puedo encontrar aparcamientos disponibles en la Avenida Libertad?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida Libertad\"}}"}
+{"prompt": "Necesito encontrar aparcamientos en la Plaza de la Concordia, ¿cuáles están disponibles?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza de la Concordia\"}}"}
+{"prompt": "¿Hay lugares para estacionar el coche en calle de la rosa?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Calle de la Rosa\"}}"}
+{"prompt": "Quiero saber los aparcamientos libres en la avenida del Parque","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida del Parque\"}}"}
+{"prompt":"¿Qué lugares de estacionamiento están disponibles en la calle principal?","completion":"{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Calle Principal\"}}"}
+{"prompt": "Necesito encontrar aparcamientos gratuitos en la Plaza de los angeles, ¿cuáles están disponibles?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza de los Ángeles\"}}"}
+{"prompt": "¿Dónde puedo encontrar aparcamientos libres en la Avenida Central?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida Central\"}}"}
+{"prompt": "¿Hay lugares para estacionar el coche en el callejón del Recuerdo?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Callejón del Recuerdo\"}}"}
+{"prompt": "Quiero saber los aparcamientos disponibles en la plaza del Sol","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza del Sol\"}}"}
+{"prompt": "¿Cuáles son los lugares de estacionamiento gratuitos en avenida de las flores?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida de las Flores\"}}"}
+{"prompt": "Necesito encontrar aparcamientos en la Calle del Mar, ¿cuáles están libres?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Calle del Mar\"}}"}
+{"prompt": "¿Dónde puedo estacionar el coche en la Plaza de la Fuente?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza de la Fuente\"}}"}
+{"prompt":"¿Qué aparcamientos hay disponibles en Avenida de la Paz?","completion":"{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida de la Paz\"}}"}
+{"prompt": "¿Qué aparcamientos tengo por la calle mayor?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Calle Mayor\"}}"}
+{"prompt": "¿Podré estacionar el coche en algún lado de la Plaza de la Catedral?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza de la Catedral\"}}"}
+{"prompt": "¿Dónde puedo encontrar aparcamientos disponibles en la Avenida del rosal?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida del Rosal\"}}"}
+{"prompt": "Necesito encontrar aparcamientos en el callejón de los Susurros, ¿cuáles están disponibles?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Callejón de los Susurros\"}}"}
+{"prompt": "¿Hay lugares para estacionar el coche en la plaza de la Libertad?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza de la Libertad\"}}"}
+{"prompt": "Quiero saber los aparcamientos libres en Avenida Primavera","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida Primavera\"}}"}
+{"prompt":"¿Qué lugares de estacionamiento están disponibles en la Calle de los Almendros?","completion":"{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Calle de los Almendros\"}}"}
+{"prompt": "Necesito encontrar aparcamientos gratuitos en la Plaza del Parque, ¿cuáles están disponibles?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza del Parque\"}}"}
+{"prompt": "¿Dónde puedo encontrar aparcamientos libres en la avenida de los olivos?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida de los Olivos\"}}"}
+{"prompt":"¿Qué aparcamientos hay disponibles en el callejón de la Luna?","completion":"{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Callejón de la Luna\"}}"}
+{"prompt": "¿Cuáles son los aparcamientos disponibles en la plaza de la Victoria?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza de la Victoria\"}}"}
+{"prompt": "¿Dónde puedo encontrar aparcamientos en la Avenida de la Esperanza?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Avenida de la Esperanza\"}}"}
+{"prompt": "Necesito encontrar aparcamientos en la calle del Paseo, ¿cuáles están disponibles?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Calle del Paseo\"}}"}
+{"prompt": "¿Hay lugares para estacionar el coche en la Plaza de la Alegría?","completion": "{\"intent\": \"get_free_parkings\",\"entities\": {\"avenue\": \"Plaza de la Alegría\"}}"}
 {"prompt":"en que lugar puedo ver la giralda?","completion":"{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Giralda\"}}"}
-{"prompt": "donde puedo ver la plaza de españa","completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"city\": \"Plaza de España\"}}"}
-{"prompt": "En que sitio está la sagrada familia","completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"city\": \"Sagrada Familia\"}}"}
+{"prompt": "donde puedo ver la plaza de españa","completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Plaza de España\"}}"}
+{"prompt": "En que sitio está la sagrada familia","completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Sagrada Familia\"}}"}
 {"prompt": "Dónde puedo encontrar el Coliseo Romano?","completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Coliseo Romano\"}}"}
 {"prompt": "En qué lugar se encuentra la Torre Eiffel?","completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Torre Eiffel\"}}"}
 {"prompt": "Donde está el Taj Mahal?","completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Taj Mahal\"}}"}
@@ -58,36 +58,36 @@
 {"prompt": "Donde está ubicado el Taj Mahal?", "completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Taj Mahal\"}}"}
 {"prompt": "En qué lugar se encuentra el Monte Fuji?", "completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Monte Fuji\"}}"}
 {"prompt": "Donde puedo encontrar la Ópera de Sydney?", "completion": "{\"intent\": \"get_monument_location\",\"entities\": {\"monument\": \"Ópera de Sydney\"}}"}
-{"prompt":"tengo algún cargador eléctrico disponibles en la avenida de juan lpez de pealver","completion":"{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida de Juan Lpez de Pealver\"}}"}
-{"prompt": "en la calle Mara Curie puedo cargar mi coche?","completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Mara Curie\"}}"}
-{"prompt": "¿Habrá enchufes para cargar mi coche en la avenida Mística?","completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida Mística\"}}"}
-{"prompt": "En la calle Laberinto, ¿podré abastecer mi vehículo?","completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Laberinto\"}}"}
-{"prompt": "¿Existe algún punto de carga energético en la avenida de los Sueños?","completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida de los Sueños\"}}"}
-{"prompt": "En la calle Sinfonía, ¿podré cargar mi coche eléctrico?","completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Sinfonía\"}}"}
-{"prompt": "¿Hay algún cargador eléctrico disponible en la calle Real?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Real\"}}"}
-{"prompt": "En la avenida Primavera, ¿puedo cargar mi coche eléctrico?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida Primavera\"}}"}
-{"prompt": "En la Plaza Mayor, ¿puedo encontrar un cargador eléctrico para mi coche?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Plaza Mayor\"}}"}
-{"prompt": "En la avenida del Sol, ¿podré abastecer mi vehículo?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida del Sol\"}}"}
-{"prompt": "¿Existe algún punto de carga energético en la calle Central?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Central\"}}"}
-{"prompt": "En la avenida de los Álamos, ¿podré cargar mi coche eléctrico?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida de los Álamos\"}}"}
-{"prompt": "¿Puedo encontrar un cargador eléctrico en la calle Victoria?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Victoria\"}}"}
-{"prompt": "¿Conozco algún punto de carga eléctrica en la calle Independencia?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Independencia\"}}"}
-{"prompt": "Quisiera saber si hay algún cargador eléctrico disponible en la avenida Libertador.", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida Libertador\"}}"}
-{"prompt": "En la Plaza de San Pedro, ¿hay algún punto de carga para coches eléctricos cerca?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Plaza de San Pedro\"}}"}
-{"prompt": "¿Hay algún punto de carga cerca de la Plaza del Sol para vehículos eléctricos?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Plaza del Sol\"}}"}
-{"prompt": "Quiero saber si hay algún punto de carga energética disponible en la avenida Central.", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida Central\"}}"}
-{"prompt": "¿Dónde puedo cargar mi coche eléctrico en la calle Serenidad?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Serenidad\"}}"}
-{"prompt": "Estoy buscando un cargador eléctrico en la calle Nueva, ¿hay alguno disponible?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Nueva\"}}"}
-{"prompt": "En la calle cárcel, a pocos metros de la Plaza de España, ¿hay algún cargador eléctrico disponible?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Cárcel\"}}"}
-{"prompt": "Me gustaría saber si hay enchufes para cargar mi vehículo en la calle del Sol", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle del Sol\"}}"}
-{"prompt": "¿Conoces algún lugar en la avenida del Parque donde pueda abastecer mi coche eléctrico?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida del Parque\"}}"}
-{"prompt": "En la calle Principal, ¿hay algún punto de carga disponible para vehículos eléctricos?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Principal\"}}"}
-{"prompt": "¿Existen enchufes para cargar mi vehículo eléctrico cerca de la Plaza del Ayuntamiento en la calle Concejo de Sagaseta?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle Concejo de Sagaseta\"}}"}
-{"prompt": "Me gustaría saber si hay disponibles cargadores eléctricos en la calle del Bosque.", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle del Bosque\"}}"}
-{"prompt": "¿Existe alguna alternativa de carga para vehículos eléctricos cerca de la Plaza de la Revolución?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Plaza de la Revolución\"}}"}
-{"prompt": "¿Hay opciones de enchufes disponibles para cargar mi vehículo en la calle San Gabriel?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle San Gabriel\"}}"}
-{"prompt": "Quiero abastecer mi coche eléctrico, ¿existe alguna alternativa en la avenida del Lago?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Avenida del Lago\"}}"}
-{"prompt": "En la calle San Martín, ¿se pueden encontrar puntos de carga para vehículos eléctricos?", "completion": "{\"intent\": \"get-electric-charger\",\"entities\": {\"avenue\": \"Calle San Martín\"}}"}
+{"prompt":"tengo algún cargador eléctrico disponibles en la avenida de juan lpez de pealver","completion":"{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida de Juan Lpez de Pealver\"}}"}
+{"prompt": "en la calle Mara Curie puedo cargar mi coche?","completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Mara Curie\"}}"}
+{"prompt": "¿Habrá enchufes para cargar mi coche en la avenida Mística?","completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida Mística\"}}"}
+{"prompt": "En la calle Laberinto, ¿podré abastecer mi vehículo?","completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Laberinto\"}}"}
+{"prompt": "¿Existe algún punto de carga energético en la avenida de los Sueños?","completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida de los Sueños\"}}"}
+{"prompt": "En la calle Sinfonía, ¿podré cargar mi coche eléctrico?","completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Sinfonía\"}}"}
+{"prompt": "¿Hay algún cargador eléctrico disponible en la calle Real?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Real\"}}"}
+{"prompt": "En la avenida Primavera, ¿puedo cargar mi coche eléctrico?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida Primavera\"}}"}
+{"prompt": "En la Plaza Mayor, ¿puedo encontrar un cargador eléctrico para mi coche?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Plaza Mayor\"}}"}
+{"prompt": "En la avenida del Sol, ¿podré abastecer mi vehículo?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida del Sol\"}}"}
+{"prompt": "¿Existe algún punto de carga energético en la calle Central?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Central\"}}"}
+{"prompt": "En la avenida de los Álamos, ¿podré cargar mi coche eléctrico?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida de los Álamos\"}}"}
+{"prompt": "¿Puedo encontrar un cargador eléctrico en la calle Victoria?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Victoria\"}}"}
+{"prompt": "¿Conozco algún punto de carga eléctrica en la calle Independencia?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Independencia\"}}"}
+{"prompt": "Quisiera saber si hay algún cargador eléctrico disponible en la avenida Libertador.", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida Libertador\"}}"}
+{"prompt": "En la Plaza de San Pedro, ¿hay algún punto de carga para coches eléctricos cerca?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Plaza de San Pedro\"}}"}
+{"prompt": "¿Hay algún punto de carga cerca de la Plaza del Sol para vehículos eléctricos?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Plaza del Sol\"}}"}
+{"prompt": "Quiero saber si hay algún punto de carga energética disponible en la avenida Central.", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida Central\"}}"}
+{"prompt": "¿Dónde puedo cargar mi coche eléctrico en la calle Serenidad?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Serenidad\"}}"}
+{"prompt": "Estoy buscando un cargador eléctrico en la calle Nueva, ¿hay alguno disponible?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Nueva\"}}"}
+{"prompt": "En la calle cárcel, a pocos metros de la Plaza de España, ¿hay algún cargador eléctrico disponible?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Cárcel\"}}"}
+{"prompt": "Me gustaría saber si hay enchufes para cargar mi vehículo en la calle del Sol", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle del Sol\"}}"}
+{"prompt": "¿Conoces algún lugar en la avenida del Parque donde pueda abastecer mi coche eléctrico?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida del Parque\"}}"}
+{"prompt": "En la calle Principal, ¿hay algún punto de carga disponible para vehículos eléctricos?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Principal\"}}"}
+{"prompt": "¿Existen enchufes para cargar mi vehículo eléctrico cerca de la Plaza del Ayuntamiento en la calle Concejo de Sagaseta?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle Concejo de Sagaseta\"}}"}
+{"prompt": "Me gustaría saber si hay disponibles cargadores eléctricos en la calle del Bosque.", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle del Bosque\"}}"}
+{"prompt": "¿Existe alguna alternativa de carga para vehículos eléctricos cerca de la Plaza de la Revolución?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Plaza de la Revolución\"}}"}
+{"prompt": "¿Hay opciones de enchufes disponibles para cargar mi vehículo en la calle San Gabriel?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle San Gabriel\"}}"}
+{"prompt": "Quiero abastecer mi coche eléctrico, ¿existe alguna alternativa en la avenida del Lago?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Avenida del Lago\"}}"}
+{"prompt": "En la calle San Martín, ¿se pueden encontrar puntos de carga para vehículos eléctricos?", "completion": "{\"intent\": \"get_electric_charger\",\"entities\": {\"avenue\": \"Calle San Martín\"}}"}
 {"prompt":"que tiempo hizo en sevilla el lunes?.","completion":"{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Sevilla\"}}"}
 {"prompt": "como está el día hoy en Valladolid.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Valladolid\"}}"}
 {"prompt": "En barcelona, cuantos grados hace mañana.","completion": "{\"intent\": \"get_weather\",\"entities\":{\"city\": \"Barcelona\"}}"}

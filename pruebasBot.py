@@ -1,7 +1,8 @@
 import openai
-import json, requests, urllib, os
+import json, requests, urllib, os, re,math
 import pandas as pd
-from openai.api_resources import Completion
+from sentence_transformers import SentenceTransformer, util
+
 #export OPENAI_API_KEY="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"
 
 def getResponse(data):
@@ -21,43 +22,14 @@ def getResponse(data):
     return(response.choices[0]["message"]["content"])
 
 
-
-def getAction(sentence):
-    
-    openai.api_key = "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"
-    
-    response = openai.Completion.create(
-        model="ada:ft-personal:tfm-v2-2023-06-19-16-16-31",
-        prompt=sentence+" ->",
-        max_tokens=100,
-        stop="}}")
-    try:
-        diccionario_respuesta = json.loads(response.choices[0].text+"}}")
-    except ValueError:
-        diccionario_respuesta = json.loads("{\"intent\":\"\",\"entities\":\"\"}")
-        
-    #diccionario_respuesta = json.loads("{\"intent\": \"get-electric-charger\",\"entities\":{\"avenue\": \"Calle María Curie\"}}")
-    
-    #print(diccionario_respuesta)
-    switch = {
-        "get-free-parkings": getParkingsFunction,
-        "get_monument_location": getMonumentsFunction,
-        "get_weather": getTemperatureFunction,
-        "get-electric-charger": getElectricChargersFunction
-    }
-    print(diccionario_respuesta)
-    accionEscogida = switch.get(diccionario_respuesta["intent"], funcionNoEncontrada)
-    return accionEscogida(diccionario_respuesta["entities"])
-
-def getParkingsFunction(entities):
-    return ("ñslñk")
-
 def getDataAPIMalaga(url):
     apis = {
         ("https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/"+
          "equipamientos/da_cultura_ocio_monumentos-25830.csv"):"monumentos.csv",
         ("https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/"+
-         "equipamientos/da_cve-25830.csv"):"cargadores.csv"
+         "equipamientos/da_cve-25830.csv"):"cargadores.csv",
+        ("https://datosabiertos.malaga.eu/recursos/aparcamientos/"+
+         "ocupappublicosmun/ocupappublicosmun.csv"):"aparcamientos.csv"
     }
     if url in apis.keys():
         archivo = requests.get(url, stream=True)
@@ -66,16 +38,45 @@ def getDataAPIMalaga(url):
             for ch in archivo:
                 f.write(ch)
         df = pd.read_csv(apis[url])
-        return df.set_index("ID")
+        return  df.set_index("poiID") if apis[url] == "aparcamientos.csv" else df.set_index("ID")
     else:
         return None
 
-from sentence_transformers import SentenceTransformer, util
 def checkSimilarity(texto1, texto2):
     model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
     similarity_score = util.cos_sim(model.encode([texto1]), model.encode([texto2]))
     #print(similarity_score.item())
-    return True if similarity_score.item() >= 0.7 else False
+    return True if similarity_score.item() >= 0.8 else False
+
+def getParkingsFunction(entities):
+    url = "https://datosabiertos.malaga.eu/recursos/aparcamientos/ocupappublicosmun/ocupappublicosmun.csv"
+    monuments = getDataAPIMalaga(url)
+    
+    for indice, fila in monuments.iterrows():
+        #Versión biblio, sin sentence-similarity
+        if str(fila["direccion"]) != "nan":
+            calle = re.sub(r"\d+|-", "", str(fila["direccion"]).replace("(Málaga)","").replace("Málaga",""))
+            """
+            if entities["avenue"].lower() == calle.lower():
+                mensajeCompletion = ("Explica brevemente los datos del parking basado en:\n" + 
+                    "Nombre: " + str(fila["nombre"]).replace("\n"," ") + "\n"
+                    "Dirección: " + str(calle) + "\n"
+                    "Capacidad: " + str(fila["capacidad"]).replace("\n"," ") + "\n"
+                    "Plazas Libres Actuales: " + str(fila["libres"]).replace("\n"," ") + "\n")
+                return getResponse(mensajeCompletion)
+            
+            """
+            similarity = checkSimilarity(entities["avenue"].lower(),calle.lower())
+            #print(entities["monument"].lower() + " " +fila["NOMBRE"].lower())
+            if similarity == True:
+                mensajeCompletion = ("Explica brevemente los datos del parking basado en:\n" + 
+                    "Nombre: " + str(fila["nombre"]).replace("\n"," ") + "\n"
+                    "Dirección: " + str(calle) + "\n"
+                    "Capacidad: " + str(fila["capacidad"]).replace("\n"," ") + "\n"
+                    "Plazas Libres Actuales: " + str(fila["libres"]).replace("\n"," ") + "\n")
+                return getResponse(mensajeCompletion)
+            
+    return "Parking no encontrado"
 
 def getMonumentsFunction(entities):
     url = "https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_cultura_ocio_monumentos-25830.csv"
@@ -163,6 +164,34 @@ def getElectricChargersFunction(entities):
 
 def funcionNoEncontrada(entities):
     return("Lo siento, no soy capaz de realizar esta función")
+
+
+def getAction(sentence):
+    openai.api_key = "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"
+    
+    response = openai.Completion.create(
+        model="ada:ft-personal:tfm-v3-2023-06-20-16-52-50",
+        prompt=sentence+" ->",
+        max_tokens=100,
+        stop="}}")
+    try:
+        diccionario_respuesta = json.loads(response.choices[0].text+"}}")
+    except ValueError:
+        diccionario_respuesta = json.loads("{\"intent\":\"\",\"entities\":\"\"}")
+        
+    #diccionario_respuesta = json.loads("{\"intent\": \"get_free_parkings\",\"entities\":{\"avenue\": \"Calle Cervantes\"}}")
+    
+    #print(diccionario_respuesta)
+    switch = {
+        "get_free_parkings": getParkingsFunction,
+        "get_monument_location": getMonumentsFunction,
+        "get_weather": getTemperatureFunction,
+        "get_electric_charger": getElectricChargersFunction
+    }
+    print(diccionario_respuesta)
+    accionEscogida = switch.get(diccionario_respuesta["intent"], funcionNoEncontrada)
+    return accionEscogida(diccionario_respuesta["entities"])
+
 
 bot_name = "Personalized-ChatGPT"
 print("\033[37mHola! Soy un modelo de lenguaje basado en GPT-3-Ada, capaz de conectarse\n"+
