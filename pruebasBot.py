@@ -199,7 +199,7 @@ print("\033[37mHola! Soy un modelo de lenguaje basado en GPT-3-Ada, capaz de con
       "- Información sobre monumentos de Málaga\n"+
       "- Información sobre ocupación de parkings en Málaga\n"+
       "- Información sobre cargadores eléctricos en Málaga\n"+
-      "- Información sobre el tiempo en tiempo actual en un lugar concreto\n"+
+      "- Información sobre el tiempo actual en un cualquier lugar\n"+
       "¿Qué desea? (Escriba exit si quiere salir)")
 while True:
     # sentence = "do you use credit cards?"
