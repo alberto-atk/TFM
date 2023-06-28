@@ -188,7 +188,7 @@ def getAction(sentence):
         "get_weather": getTemperatureFunction,
         "get_electric_charger": getElectricChargersFunction
     }
-    print(diccionario_respuesta)
+    #print(diccionario_respuesta)
     accionEscogida = switch.get(diccionario_respuesta["intent"], funcionNoEncontrada)
     return accionEscogida(diccionario_respuesta["entities"])
 
@@ -202,7 +202,6 @@ print("\033[37mHola! Soy un modelo de lenguaje basado en GPT-3-Ada, capaz de con
       "- Información sobre el tiempo actual en un cualquier lugar\n"+
       "¿Qué desea? (Escriba exit si quiere salir)")
 while True:
-    # sentence = "do you use credit cards?"
     sentence = input("\033[33;4mUsuario:\033[0m ")
     if sentence == "exit":
         break

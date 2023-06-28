@@ -1,41 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T17:47:16.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NwXa4nampaRh3C1fbrBC" version="21.5.0" type="device">
+<mxfile host="app.diagrams.net" modified="2023-06-21T18:00:39.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Z2uaIb-NZKV4DOvjSeNN" version="21.5.0" type="device">
   <diagram name="Page-1" id="9CDipmVWXQvNGp6dmoGI">
-    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0pjrHX4KvD53-mBiEttG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0pjrHX4KvD53-mBiEttG-1" target="0pjrHX4KvD53-mBiEttG-5">
+        <mxCell id="0pjrHX4KvD53-mBiEttG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0pjrHX4KvD53-mBiEttG-1" target="0pjrHX4KvD53-mBiEttG-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0pjrHX4KvD53-mBiEttG-1" target="0pjrHX4KvD53-mBiEttG-4">
+        <mxCell id="0pjrHX4KvD53-mBiEttG-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="0pjrHX4KvD53-mBiEttG-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="489" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0pjrHX4KvD53-mBiEttG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="awKfbY6U79EIytdN-RcW-1" target="0pjrHX4KvD53-mBiEttG-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="489" y="570.38125" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0pjrHX4KvD53-mBiEttG-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="awKfbY6U79EIytdN-RcW-1" target="0pjrHX4KvD53-mBiEttG-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554" y="550.001592920354" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awKfbY6U79EIytdN-RcW-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="0pjrHX4KvD53-mBiEttG-1" target="awKfbY6U79EIytdN-RcW-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0pjrHX4KvD53-mBiEttG-1" target="0pjrHX4KvD53-mBiEttG-11">
+        <mxCell id="0pjrHX4KvD53-mBiEttG-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servers;" parent="1" vertex="1">
+          <mxGeometry x="424" y="240" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0pjrHX4KvD53-mBiEttG-2" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" parent="1" vertex="1">
+          <mxGeometry x="459" y="20" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0pjrHX4KvD53-mBiEttG-4" value="OpenAI API" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/O/open-ai-logo-8B9BFEDC26-seeklogo.com.png;" parent="1" vertex="1">
+          <mxGeometry x="190" y="680" width="98.67" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0pjrHX4KvD53-mBiEttG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.503;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0pjrHX4KvD53-mBiEttG-5" target="0pjrHX4KvD53-mBiEttG-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0pjrHX4KvD53-mBiEttG-1" target="0pjrHX4KvD53-mBiEttG-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0pjrHX4KvD53-mBiEttG-5" value="Python APP" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png;" parent="1" vertex="1">
+          <mxGeometry x="465.75" y="130" width="46.5" height="50.96" as="geometry" />
         </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servers;" vertex="1" parent="1">
-          <mxGeometry x="424" y="310" width="130" height="130" as="geometry" />
+        <mxCell id="0pjrHX4KvD53-mBiEttG-11" value="API Ayuntamiento Málaga" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.imesapi.es/wp-content/uploads/2016/01/logo_aytomalaga.jpg;" parent="1" vertex="1">
+          <mxGeometry x="439" y="691.86" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-2" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
-          <mxGeometry x="459" y="60" width="60" height="60" as="geometry" />
+        <mxCell id="0pjrHX4KvD53-mBiEttG-13" value="API Tiempo" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.vectorlogo.zone/logos/rapidapi/rapidapi-ar21.png;" parent="1" vertex="1">
+          <mxGeometry x="670" y="656.86" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-4" value="OpenAI API" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/O/open-ai-logo-8B9BFEDC26-seeklogo.com.png;" vertex="1" parent="1">
-          <mxGeometry x="180" y="520" width="98.67" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.503;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0pjrHX4KvD53-mBiEttG-5" target="0pjrHX4KvD53-mBiEttG-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-5" value="Python APP" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png;" vertex="1" parent="1">
-          <mxGeometry x="465.75" y="190" width="46.5" height="50.96" as="geometry" />
-        </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-11" value="API Ayuntamiento Málaga" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.imesapi.es/wp-content/uploads/2016/01/logo_aytomalaga.jpg;" vertex="1" parent="1">
-          <mxGeometry x="439" y="560" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="0pjrHX4KvD53-mBiEttG-13" value="API Tiempo" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.vectorlogo.zone/logos/rapidapi/rapidapi-ar21.png;" vertex="1" parent="1">
-          <mxGeometry x="670" y="525" width="180" height="90" as="geometry" />
+        <mxCell id="awKfbY6U79EIytdN-RcW-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/a/aa/Requests_Python_Logo.png;" vertex="1" parent="1">
+          <mxGeometry x="451" y="425" width="76" height="97.44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
