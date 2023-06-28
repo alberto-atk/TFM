@@ -14,6 +14,7 @@ def getResponse(data):
                 {"role": "user", "content": data},
             ]
     )
+    print("Mensaje enviado a ChatGPT (prompt): " + str(data))
     """
     with open('respuestaCompletion.json', 'r') as archivo:
         contenido_json = archivo.read()
@@ -46,7 +47,11 @@ def checkSimilarity(texto1, texto2):
     model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
     similarity_score = util.cos_sim(model.encode([texto1]), model.encode([texto2]))
     #print(similarity_score.item())
-    return True if similarity_score.item() >= 0.8 else False
+    if similarity_score.item() >= 0.8:
+        print("Los textos: " + str(texto1) + " y " + str(texto2) + " tienen una similaridad de " + str(similarity_score.item()))
+        return True
+    else:
+        return False
 
 def getParkingsFunction(entities):
     url = "https://datosabiertos.malaga.eu/recursos/aparcamientos/ocupappublicosmun/ocupappublicosmun.csv"
@@ -181,7 +186,7 @@ def getAction(sentence):
         
     #diccionario_respuesta = json.loads("{\"intent\": \"get_free_parkings\",\"entities\":{\"avenue\": \"Calle Cervantes\"}}")
     
-    #print(diccionario_respuesta)
+    print("Reconocimiento entidades OpenAI (fine-tuned): " + str(diccionario_respuesta))
     switch = {
         "get_free_parkings": getParkingsFunction,
         "get_monument_location": getMonumentsFunction,
