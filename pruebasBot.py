@@ -2,7 +2,10 @@ import openai
 import json, requests, urllib, os, re,math
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
-
+import speech_recognition as sr
+from gtts import gTTS
+from playsound import playsound
+from os import remove
 #export OPENAI_API_KEY="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"
 
 def getResponse(data):
@@ -193,6 +196,26 @@ def getAction(sentence):
     return accionEscogida(diccionario_respuesta["entities"])
 
 
+def listen():
+    listener = sr.Recognizer()
+    try:
+        with sr.Microphone() as source:
+            print(f"\n\033[4;36m{bot_name}:\033[0m" + "  \033[37m"+ "Escuchando..." + "\n" )
+
+            pc = listener.listen(source)
+            rec = listener.recognize_google(pc, language='es-ES')
+            rec = rec.lower()
+            print(f"\n\033[4;36m{bot_name}:\033[0m" + "  \033[37m"+ "Consultando: " + rec + "?\n" )
+        return getAction(rec + "?")
+    except Exception as e:
+        print(e)
+
+def speak(text):
+    tts = gTTS(text, lang='es-es')
+    tts.save('pruebas.mp3')
+    playsound("pruebas.mp3")
+    remove("pruebas.mp3")
+
 bot_name = "Personalized-ChatGPT"
 print("\033[37mHola! Soy un modelo de lenguaje basado en GPT-3-Ada, capaz de conectarse\n"+
       "con algunas aplicaciones en tiempo real, pudiendo realizar estas funciones: \n"+
@@ -205,6 +228,11 @@ while True:
     sentence = input("\033[33;4mUsuario:\033[0m ")
     if sentence == "exit":
         break
+    elif sentence == "voz":
+        respuesta = listen()
+        speak(respuesta)
+        print(f"\n\033[4;36m{bot_name}:\033[0m" + "  \033[37m"+ respuesta + "\n" )
+
     else:
 
         print(f"\n\033[4;36m{bot_name}:\033[0m" + "  \033[37m"+ getAction(sentence) + "\n" )
