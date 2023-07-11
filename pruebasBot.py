@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer, util
 #export OPENAI_API_KEY="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"
 
 def getResponse(data):
-    openai.api_key = "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"
+    openai.api_key = "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"
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         max_tokens=1500,
@@ -172,7 +172,7 @@ def funcionNoEncontrada(entities):
 
 
 def getAction(sentence):
-    openai.api_key = "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"
+    openai.api_key = "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"
     
     response = openai.Completion.create(
         model="ada:ft-personal:tfm-v3-2023-06-20-16-52-50",
